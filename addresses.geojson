@@ -1,0 +1,2270 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2016-04-24T01:03:02Z",
+  "features": [
+            { 
+ "type": "Feature", 
+ "id": "node/247985030", 
+ "properties": { 
+ 	 "@id": "node/247985030", 
+ "building": "house", 
+ "name": "72D / 58 Wattle Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/72d-58-wattle-street-lyneham-canberra/1317208705211", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985031", 
+ "properties": { 
+ 	 "@id": "node/247985031", 
+ "building": "house", 
+ "name": "2/63 Melba Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/2-63-melba-street-downer-canberra/1317066405411", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985032", 
+ "properties": { 
+ 	 "@id": "node/247985032", 
+ "building": "house", 
+ "name": "5/63 Melba Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/5-63-melba-street-downer-canberra/1317135578611", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985033", 
+ "properties": { 
+ 	 "@id": "node/247985033", 
+ "building": "house", 
+ "name": "10/43 Gardiner Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/10-43-gardiner-street-downer-canberra/1316987579311", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985034", 
+ "properties": { 
+ 	 "@id": "node/247985034", 
+ "building": "house", 
+ "name": "59 Melba Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/59-melba-street-downer-canberra/1316867514011", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985035", 
+ "properties": { 
+ 	 "@id": "node/247985035", 
+ "building": "house", 
+ "name": "1/34 Frencham Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/1-34-frencham-street-downer-canberra/1317221373311", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985036", 
+ "properties": { 
+ 	 "@id": "node/247985036", 
+ "building": "house", 
+ "name": "25A Bradfield Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/25a-bradfield-street-downer-canberra/1317185320611", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985037", 
+ "properties": { 
+ 	 "@id": "node/247985037", 
+ "building": "house", 
+ "name": "99 Hannan Place", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/99-hannan-place-ainslie-canberra/1317218374011", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985038", 
+ "properties": { 
+ 	 "@id": "node/247985038", 
+ "building": "house", 
+ "name": "143 Duffy Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/143-duffy-street-ainslie-canberra/1317217543011", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985039", 
+ "properties": { 
+ 	 "@id": "node/247985039", 
+ "building": "house", 
+ "name": "18 Winnecke Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/18-winnecke-street-ainslie-canberra/1317226640311", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985040", 
+ "properties": { 
+ 	 "@id": "node/247985040", 
+ "building": "house", 
+ "name": "1/12 Cox", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/1-12-cox-ainslie-canberra/1317227644611", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985041", 
+ "properties": { 
+ 	 "@id": "node/247985041", 
+ "building": "house", 
+ "name": "4/1 Cowper Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/4-1-cowper-street-ainslie-canberra/1317206208411", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985042", 
+ "properties": { 
+ 	 "@id": "node/247985042", 
+ "building": "house", 
+ "name": "91A Officer Crescent", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/91a-officer-crescent-ainslie-canberra/1317210814211", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985043", 
+ "properties": { 
+ 	 "@id": "node/247985043", 
+ "building": "house", 
+ "name": "23 Bonney Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/23-bonney-street-ainslie-canberra/1317196503711", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985044", 
+ "properties": { 
+ 	 "@id": "node/247985044", 
+ "building": "house", 
+ "name": "11 Archer Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/11-archer-street-dickson-canberra/1317222334811", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985045", 
+ "properties": { 
+ 	 "@id": "node/247985045", 
+ "building": "house", 
+ "name": "57 Lowrie Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/57-lowrie-street-dickson-canberra/1317223807511", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985046", 
+ "properties": { 
+ 	 "@id": "node/247985046", 
+ "building": "house", 
+ "name": "1 Bates Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/1-bates-street-dickson-canberra/1317225014711", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985047", 
+ "properties": { 
+ 	 "@id": "node/247985047", 
+ "building": "house", 
+ "name": "56 Dumaresq Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/56-dumaresq-street-dickson-canberra/1317226602911", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985048", 
+ "properties": { 
+ 	 "@id": "node/247985048", 
+ "building": "house", 
+ "name": "1/108 Davenport Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/1-108-davenport-street-dickson-canberra/1317135927411", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985049", 
+ "properties": { 
+ 	 "@id": "node/247985049", 
+ "building": "house", 
+ "name": "8/17-23 Majura Avenue", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/8-17-23-majura-avenue-dickson-canberra/1316892445411", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985050", 
+ "properties": { 
+ 	 "@id": "node/247985050", 
+ "building": "house", 
+ "name": "32 Stockdale Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/32-stockdale-street-dickson-canberra/1316939091211", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985051", 
+ "properties": { 
+ 	 "@id": "node/247985051", 
+ "building": "house", 
+ "name": "6-8 Cape Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/6-8-cape-street-dickson-canberra/1316967218411", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985052", 
+ "properties": { 
+ 	 "@id": "node/247985052", 
+ "building": "house", 
+ "name": "Malabar - 1 Bedroom Apartment", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/malabar-1-bedroom-apartment-dickson-canberra/1317022614711", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985053", 
+ "properties": { 
+ 	 "@id": "node/247985053", 
+ "building": "house", 
+ "name": "10/13 Majura Avenue", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/10-13-majura-avenue-dickson-canberra/1316958857311", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985054", 
+ "properties": { 
+ 	 "@id": "node/247985054", 
+ "building": "house", 
+ "name": "18/12 Challis Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/18-12-challis-street-dickson-canberra/1317158367911", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985055", 
+ "properties": { 
+ 	 "@id": "node/247985055", 
+ "building": "house", 
+ "name": "11/14 Randell Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/11-14-randell-street-dickson-canberra/1317156000111", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985056", 
+ "properties": { 
+ 	 "@id": "node/247985056", 
+ "building": "house", 
+ "name": "Mcgowan Place", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/mcgowan-place-dickson-canberra/1316941081411", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985057", 
+ "properties": { 
+ 	 "@id": "node/247985057", 
+ "building": "house", 
+ "name": "6-8 Cape Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/6-8-cape-street-dickson-canberra/1316967640911", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985058", 
+ "properties": { 
+ 	 "@id": "node/247985058", 
+ "building": "house", 
+ "name": "Malabar - 2 Bedroom Apartment", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/malabar-2-bedroom-apartment-dickson-canberra/1317022614911", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985059", 
+ "properties": { 
+ 	 "@id": "node/247985059", 
+ "building": "house", 
+ "name": "1/45 Majura Avenue", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/1-45-majura-avenue-dickson-canberra/1317209593111", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985060", 
+ "properties": { 
+ 	 "@id": "node/247985060", 
+ "building": "house", 
+ "name": "Majura Key - Two and Three Bedroom Terraces", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/majura-key-two-and-three-bedroom-terraces-dickson-canberra/1317193174111", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985061", 
+ "properties": { 
+ 	 "@id": "node/247985061", 
+ "building": "house", 
+ "name": "Malabar - 3 Bedroom Apartment", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/malabar-3-bedroom-apartment-dickson-canberra/1317022615011", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985062", 
+ "properties": { 
+ 	 "@id": "node/247985062", 
+ "building": "house", 
+ "name": "6-8 Cape Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/6-8-cape-street-dickson-canberra/1316967676511", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985063", 
+ "properties": { 
+ 	 "@id": "node/247985063", 
+ "building": "house", 
+ "name": "The Santana - Townhouse- Unit 1 & 9", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/the-santana-townhouse-unit-1-9-dickson-canberra/1317222350111", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985064", 
+ "properties": { 
+ 	 "@id": "node/247985064", 
+ "building": "house", 
+ "name": "47 Wilshire Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/47-wilshire-street-dickson-canberra/1317208403911", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985065", 
+ "properties": { 
+ 	 "@id": "node/247985065", 
+ "building": "house", 
+ "name": "The Santana - Townhouse - Unit 2, 3 & 4", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/the-santana-townhouse-unit-2-3-4-dickson-canberra/1317222446011", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985066", 
+ "properties": { 
+ 	 "@id": "node/247985066", 
+ "building": "house", 
+ "name": "The Santana - Townhouse - Unit 5 & 8", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/the-santana-townhouse-unit-5-8-dickson-canberra/1317222446111", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985067", 
+ "properties": { 
+ 	 "@id": "node/247985067", 
+ "building": "house", 
+ "name": "The Santana - Townhouse - Unit 6 & 7", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/the-santana-townhouse-unit-6-7-dickson-canberra/1317222350211", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985068", 
+ "properties": { 
+ 	 "@id": "node/247985068", 
+ "building": "house", 
+ "name": "9/40 Moore Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/9-40-moore-street-turner-canberra/1317094239111", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985069", 
+ "properties": { 
+ 	 "@id": "node/247985069", 
+ "building": "house", 
+ "name": "22/72-74 Macleay Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/22-72-74-macleay-street-turner-canberra/1317206202911", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985070", 
+ "properties": { 
+ 	 "@id": "node/247985070", 
+ "building": "house", 
+ "name": "143/77 Northbourne Avenue", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/143-77-northbourne-avenue-turner-canberra/1316947790511", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985071", 
+ "properties": { 
+ 	 "@id": "node/247985071", 
+ "building": "house", 
+ "name": "29/29/28 Watson Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/29-29-28-watson-street-turner-canberra/1317195300011", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985072", 
+ "properties": { 
+ 	 "@id": "node/247985072", 
+ "building": "house", 
+ "name": "4/77 Northbourne Avenue", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/4-77-northbourne-avenue-turner-canberra/1317086699111", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985073", 
+ "properties": { 
+ 	 "@id": "node/247985073", 
+ "building": "house", 
+ "name": "2/29 Forbes Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/2-29-forbes-street-turner-canberra/1316857806111", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985074", 
+ "properties": { 
+ 	 "@id": "node/247985074", 
+ "building": "house", 
+ "name": "9/52 Macleay Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/9-52-macleay-street-turner-canberra/1317051421711", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985075", 
+ "properties": { 
+ 	 "@id": "node/247985075", 
+ "building": "house", 
+ "name": "305/4 Masson Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/305-4-masson-street-turner-canberra/1317111481411", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985076", 
+ "properties": { 
+ 	 "@id": "node/247985076", 
+ "building": "house", 
+ "name": "37-39 Forbes Street - 1 Bedroom Apartment", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/37-39-forbes-street-1-bedroom-apartment-turner-canberra/1317168041311", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985077", 
+ "properties": { 
+ 	 "@id": "node/247985077", 
+ "building": "house", 
+ "name": "1 -12/37-39 Forbes Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/1-12-37-39-forbes-street-turner-canberra/1317157921011", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985078", 
+ "properties": { 
+ 	 "@id": "node/247985078", 
+ "building": "house", 
+ "name": "22/19 Condamine Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/22-19-condamine-street-turner-canberra/1317215683911", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985079", 
+ "properties": { 
+ 	 "@id": "node/247985079", 
+ "building": "house", 
+ "name": "16/20 Condamine Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/16-20-condamine-street-turner-canberra/1317211362211", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985080", 
+ "properties": { 
+ 	 "@id": "node/247985080", 
+ "building": "house", 
+ "name": "Brooklyn - 1 Bedroom Apartment", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/brooklyn-1-bedroom-apartment-turner-canberra/1317022619811", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985081", 
+ "properties": { 
+ 	 "@id": "node/247985081", 
+ "building": "house", 
+ "name": "4 Wedge Crescent", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/4-wedge-crescent-turner-canberra/1316898250411", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985082", 
+ "properties": { 
+ 	 "@id": "node/247985082", 
+ "building": "house", 
+ "name": "Brooklyn - 1 Bedroom Apartment", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/brooklyn-1-bedroom-apartment-turner-canberra/1317223617011", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985083", 
+ "properties": { 
+ 	 "@id": "node/247985083", 
+ "building": "house", 
+ "name": "Brooklyn - 1 Bedroom Apartment", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/brooklyn-1-bedroom-apartment-turner-canberra/1317223617111", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985084", 
+ "properties": { 
+ 	 "@id": "node/247985084", 
+ "building": "house", 
+ "name": "Brooklyn - 1 Bedroom Apartment", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/brooklyn-1-bedroom-apartment-turner-canberra/1317223622011", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985085", 
+ "properties": { 
+ 	 "@id": "node/247985085", 
+ "building": "house", 
+ "name": "66/77 Northbourne Avenue", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/66-77-northbourne-avenue-turner-canberra/1317216821011", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985086", 
+ "properties": { 
+ 	 "@id": "node/247985086", 
+ "building": "house", 
+ "name": "3/50 Moore Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/3-50-moore-street-turner-canberra/1317205564511", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985087", 
+ "properties": { 
+ 	 "@id": "node/247985087", 
+ "building": "house", 
+ "name": "145/77 Northbourne Avenue", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/145-77-northbourne-avenue-turner-canberra/1317208340211", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985088", 
+ "properties": { 
+ 	 "@id": "node/247985088", 
+ "building": "house", 
+ "name": "37-39 Forbes Street - 2 Bedroom Apartment", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/37-39-forbes-street-2-bedroom-apartment-turner-canberra/1317168055411", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985089", 
+ "properties": { 
+ 	 "@id": "node/247985089", 
+ "building": "house", 
+ "name": "1 -12/37-39 Forbes Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/1-12-37-39-forbes-street-turner-canberra/1317157920011", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985090", 
+ "properties": { 
+ 	 "@id": "node/247985090", 
+ "building": "house", 
+ "name": "1-8/19 Forbes Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/1-8-19-forbes-street-turner-canberra/1317063307011", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985091", 
+ "properties": { 
+ 	 "@id": "node/247985091", 
+ "building": "house", 
+ "name": "11/5 Gould Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/11-5-gould-street-turner-canberra/1317161305211", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985092", 
+ "properties": { 
+ 	 "@id": "node/247985092", 
+ "building": "house", 
+ "name": "109/155 Northbourne Avenue", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/109-155-northbourne-avenue-turner-canberra/1317214539111", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985093", 
+ "properties": { 
+ 	 "@id": "node/247985093", 
+ "building": "house", 
+ "name": "131/77 Northbourne Avenue", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/131-77-northbourne-avenue-turner-canberra/1317192593011", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985094", 
+ "properties": { 
+ 	 "@id": "node/247985094", 
+ "building": "house", 
+ "name": "2/15 Towns Crescent", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/2-15-towns-crescent-turner-canberra/1317163143511", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985095", 
+ "properties": { 
+ 	 "@id": "node/247985095", 
+ "building": "house", 
+ "name": "18/9 Wedge Crescent", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/18-9-wedge-crescent-turner-canberra/1317207337711", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985096", 
+ "properties": { 
+ 	 "@id": "node/247985096", 
+ "building": "house", 
+ "name": "8 Holder Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/8-holder-street-turner-canberra/1317224808811", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985097", 
+ "properties": { 
+ 	 "@id": "node/247985097", 
+ "building": "house", 
+ "name": "43A Froggatt Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/43a-froggatt-street-turner-canberra/1317208432111", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985098", 
+ "properties": { 
+ 	 "@id": "node/247985098", 
+ "building": "house", 
+ "name": "18 Greenway Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/18-greenway-street-turner-canberra/1317171481111", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985099", 
+ "properties": { 
+ 	 "@id": "node/247985099", 
+ "building": "house", 
+ "name": "13 Holder Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/13-holder-street-turner-canberra/1317145820911", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985100", 
+ "properties": { 
+ 	 "@id": "node/247985100", 
+ "building": "house", 
+ "name": "HAIG - 3 Bedroom Residence", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/haig-3-bedroom-residence-turner-canberra/1317191808111", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985101", 
+ "properties": { 
+ 	 "@id": "node/247985101", 
+ "building": "house", 
+ "name": "95 Brigalow Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/95-brigalow-street-lyneham-canberra/1317218666711", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985102", 
+ "properties": { 
+ 	 "@id": "node/247985102", 
+ "building": "house", 
+ "name": "19 Glover Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/19-glover-street-lyneham-canberra/1317222297411", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985103", 
+ "properties": { 
+ 	 "@id": "node/247985103", 
+ "building": "house", 
+ "name": "4/25 Mackennal Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/4-25-mackennal-street-lyneham-canberra/1317221713011", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985104", 
+ "properties": { 
+ 	 "@id": "node/247985104", 
+ "building": "house", 
+ "name": "17A/62 Wattle Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/17a-62-wattle-street-lyneham-canberra/1317201693111", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985105", 
+ "properties": { 
+ 	 "@id": "node/247985105", 
+ "building": "house", 
+ "name": "12B/62 Wattle Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/12b-62-wattle-street-lyneham-canberra/1317183205711", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985106", 
+ "properties": { 
+ 	 "@id": "node/247985106", 
+ "building": "house", 
+ "name": "18A/62 Wattle Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/18a-62-wattle-street-lyneham-canberra/1317160413011", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985107", 
+ "properties": { 
+ 	 "@id": "node/247985107", 
+ "building": "house", 
+ "name": "8C/62 Wattle Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/8c-62-wattle-street-lyneham-canberra/1317160409011", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985108", 
+ "properties": { 
+ 	 "@id": "node/247985108", 
+ "building": "house", 
+ "name": "72D / 58 Wattle Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/72d-58-wattle-street-lyneham-canberra/1317208705211", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985109", 
+ "properties": { 
+ 	 "@id": "node/247985109", 
+ "building": "house", 
+ "name": "70/60 Wattle Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/70-60-wattle-street-lyneham-canberra/1317212002211", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985110", 
+ "properties": { 
+ 	 "@id": "node/247985110", 
+ "building": "house", 
+ "name": "2/12 Fox Place", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/2-12-fox-place-lyneham-canberra/1317120758911", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985111", 
+ "properties": { 
+ 	 "@id": "node/247985111", 
+ "building": "house", 
+ "name": "32/1 Mouat Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/32-1-mouat-street-lyneham-canberra/1317215724311", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985112", 
+ "properties": { 
+ 	 "@id": "node/247985112", 
+ "building": "house", 
+ "name": "16/15 Fox Place", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/16-15-fox-place-lyneham-canberra/1317227165611", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985113", 
+ "properties": { 
+ 	 "@id": "node/247985113", 
+ "building": "house", 
+ "name": "112/26 Oliver Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/112-26-oliver-street-lyneham-canberra/1317190468311", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985114", 
+ "properties": { 
+ 	 "@id": "node/247985114", 
+ "building": "house", 
+ "name": "26 Archibald Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/26-archibald-street-lyneham-canberra/1317154807811", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985115", 
+ "properties": { 
+ 	 "@id": "node/247985115", 
+ "building": "house", 
+ "name": "70/22 Archibald Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/70-22-archibald-street-lyneham-canberra/1317211960011", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985116", 
+ "properties": { 
+ 	 "@id": "node/247985116", 
+ "building": "house", 
+ "name": "143 Goodwin Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/143-goodwin-street-lyneham-canberra/1316917851611", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985117", 
+ "properties": { 
+ 	 "@id": "node/247985117", 
+ "building": "house", 
+ "name": "59/22 Archibald Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/59-22-archibald-street-lyneham-canberra/1317136990711", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985118", 
+ "properties": { 
+ 	 "@id": "node/247985118", 
+ "building": "house", 
+ "name": "341/1 Mouat Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/341-1-mouat-street-lyneham-canberra/1317223691111", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985119", 
+ "properties": { 
+ 	 "@id": "node/247985119", 
+ "building": "house", 
+ "name": "9/124 Deburgh Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/9-124-deburgh-street-lyneham-canberra/1317209708911", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985120", 
+ "properties": { 
+ 	 "@id": "node/247985120", 
+ "building": "house", 
+ "name": "607/241 Northbourne Avenue", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/607-241-northbourne-avenue-lyneham-canberra/1317219937711", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985121", 
+ "properties": { 
+ 	 "@id": "node/247985121", 
+ "building": "house", 
+ "name": "241 Northbourne Avenue", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/241-northbourne-avenue-lyneham-canberra/1317137811011", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985122", 
+ "properties": { 
+ 	 "@id": "node/247985122", 
+ "building": "house", 
+ "name": "54/1 Mouat Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/54-1-mouat-street-lyneham-canberra/1317208880011", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985123", 
+ "properties": { 
+ 	 "@id": "node/247985123", 
+ "building": "house", 
+ "name": "154/1 Mouat Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/154-1-mouat-street-lyneham-canberra/1316960617511", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985124", 
+ "properties": { 
+ 	 "@id": "node/247985124", 
+ "building": "house", 
+ "name": "1 Edwell Place", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/1-edwell-place-lyneham-canberra/1317208770911", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985125", 
+ "properties": { 
+ 	 "@id": "node/247985125", 
+ "building": "house", 
+ "name": "30/21 Cossington Smith Crescent", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/30-21-cossington-smith-crescent-lyneham-canberra/1317221099711", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985126", 
+ "properties": { 
+ 	 "@id": "node/247985126", 
+ "building": "house", 
+ "name": "2/18 De Burgh Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/2-18-de-burgh-street-lyneham-canberra/1317212652211", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985127", 
+ "properties": { 
+ 	 "@id": "node/247985127", 
+ "building": "house", 
+ "name": "24/2 Archibald Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/24-2-archibald-street-lyneham-canberra/1317214553011", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985128", 
+ "properties": { 
+ 	 "@id": "node/247985128", 
+ "building": "house", 
+ "name": "12/18 De Burgh Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/12-18-de-burgh-street-lyneham-canberra/1317177152711", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985129", 
+ "properties": { 
+ 	 "@id": "node/247985129", 
+ "building": "house", 
+ "name": "Fox Place", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/fox-place-lyneham-canberra/1317167592311", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985130", 
+ "properties": { 
+ 	 "@id": "node/247985130", 
+ "building": "house", 
+ "name": "10/17 Fernyhough Crescent", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/10-17-fernyhough-crescent-lyneham-canberra/1317220875211", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985131", 
+ "properties": { 
+ 	 "@id": "node/247985131", 
+ "building": "house", 
+ "name": "31/1 Mouat Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/31-1-mouat-street-lyneham-canberra/1316935624111", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985132", 
+ "properties": { 
+ 	 "@id": "node/247985132", 
+ "building": "house", 
+ "name": "5/25 Owen Crescent", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/5-25-owen-crescent-lyneham-canberra/1317172257011", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985133", 
+ "properties": { 
+ 	 "@id": "node/247985133", 
+ "building": "house", 
+ "name": "106/1 Mouat Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/106-1-mouat-street-lyneham-canberra/1317210082011", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985134", 
+ "properties": { 
+ 	 "@id": "node/247985134", 
+ "building": "house", 
+ "name": "2/20 De Burgh Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/2-20-de-burgh-street-lyneham-canberra/1317015360011", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985135", 
+ "properties": { 
+ 	 "@id": "node/247985135", 
+ "building": "house", 
+ "name": "85 Archibald Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/85-archibald-street-lyneham-canberra/1317209574011", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985136", 
+ "properties": { 
+ 	 "@id": "node/247985136", 
+ "building": "house", 
+ "name": "1 Serpentine Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/1-serpentine-street-duffy-canberra/1317215734911", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985137", 
+ "properties": { 
+ 	 "@id": "node/247985137", 
+ "building": "house", 
+ "name": "38 Eucumbene Drive", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/38-eucumbene-drive-duffy-canberra/1317218732811", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985138", 
+ "properties": { 
+ 	 "@id": "node/247985138", 
+ "building": "house", 
+ "name": "3 Avon Place", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/3-avon-place-duffy-canberra/1317215101411", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985139", 
+ "properties": { 
+ 	 "@id": "node/247985139", 
+ "building": "house", 
+ "name": "64 Somerset Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/64-somerset-street-duffy-canberra/1317224808411", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985140", 
+ "properties": { 
+ 	 "@id": "node/247985140", 
+ "building": "house", 
+ "name": "22/18 Glenmaggie Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/22-18-glenmaggie-street-duffy-canberra/1317212611211", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985141", 
+ "properties": { 
+ 	 "@id": "node/247985141", 
+ "building": "house", 
+ "name": "Aquilo Apartments - 2 Bedroom Unit", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/aquilo-apartments-2-bedroom-unit-duffy-canberra/1317113215711", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985142", 
+ "properties": { 
+ 	 "@id": "node/247985142", 
+ "building": "house", 
+ "name": "Aquilo Apartments - 2 Bedroom Unit", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/aquilo-apartments-2-bedroom-unit-duffy-canberra/1317113215811", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985143", 
+ "properties": { 
+ 	 "@id": "node/247985143", 
+ "building": "house", 
+ "name": "Aquilo Apartments - 2 Bedroom Unit", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/aquilo-apartments-2-bedroom-unit-duffy-canberra/1317113213911", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985144", 
+ "properties": { 
+ 	 "@id": "node/247985144", 
+ "building": "house", 
+ "name": "Aquilo Apartments - 2 Bedroom Unit", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/aquilo-apartments-2-bedroom-unit-duffy-canberra/1317113213811", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985145", 
+ "properties": { 
+ 	 "@id": "node/247985145", 
+ "building": "house", 
+ "name": "97 Jemalong Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/97-jemalong-street-duffy-canberra/1317127736611", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985146", 
+ "properties": { 
+ 	 "@id": "node/247985146", 
+ "building": "house", 
+ "name": "6 Jindabyne Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/6-jindabyne-street-duffy-canberra/1317203468411", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985147", 
+ "properties": { 
+ 	 "@id": "node/247985147", 
+ "building": "house", 
+ "name": "53 Burdekin Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/53-burdekin-street-duffy-canberra/1317205617911", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+{ 
+ "type": "Feature", 
+ "id": "node/247985148", 
+ "properties": { 
+ 	 "@id": "node/247985148", 
+ "building": "house", 
+ "name": "58 Somerset Street", 
+ "url": "http://www.allhomes.com.au/ah/act/sale-residential/58-somerset-street-duffy-canberra/1317133346111", 
+ "@timestamp": "2008-02-18T13:18:14Z" 
+ }, 
+ "geometry": {
+ "type": "Point", 
+ "coordinates": [ 
+ 0.1, 
+ 0.1 
+] 
+ 	 } 
+ } 
+,
+
+ ] 
+} 

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>// homely \\</title>
+    <link rel="stylesheet" href="http://openlayers.org/en/v3.15.1/css/ol.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="http://openlayers.org/en/v3.15.1/build/ol.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <!-- <div id="map" class="map"></div> -->
+
+      <div class="right">Hello</div>
+
+      <div id="map" class="map"></div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+<script>
+
+// Style for schools
+     var fill = new ol.style.Fill({
+       color: 'rgba(255,22,22,0.7)'
+     });
+     var stroke = new ol.style.Stroke({
+       color: '#3399CC',
+       width: 1.25
+     });
+     var styles_school = [
+       new ol.style.Style({
+         image: new ol.style.Circle({
+           fill: fill,
+           stroke: stroke,
+           radius: 5
+         }),
+         fill: fill,
+         stroke: stroke
+       })
+     ];
+//-------------------
+
+// Style for playgrounds
+     var fill = new ol.style.Fill({
+       color: 'rgba(55,22,220,0.7)'
+     });
+     var stroke = new ol.style.Stroke({
+       color: '#3399CC',
+       width: 1.25
+     });
+     var styles_playground = [
+       new ol.style.Style({
+         image: new ol.style.Circle({
+           fill: fill,
+           stroke: stroke,
+           radius: 5
+         }),
+         fill: fill,
+         stroke: stroke
+       })
+     ];
+//---------------------------
+
+// Style for addresses
+     var fill = new ol.style.Fill({
+       color: 'rgba(11,220,22,0.7)'
+     });
+     var stroke = new ol.style.Stroke({
+       color: '#B5CD72',
+       width: 1.25
+     });
+     var styles_address = [
+       new ol.style.Style({
+         image: new ol.style.Circle({
+           fill: fill,
+           stroke: stroke,
+           radius: 10
+         }),
+         fill: fill,
+         stroke: stroke
+       })
+     ];
+//---------------------------
+
+// Create open street map
+  var raster = new ol.layer.Tile({
+        source: new ol.source.OSM()
+      });
+//-----------------------
+
+// Add playgrounds from Overpass
+      var vector_playground =new ol.layer.Vector({
+         source: new ol.source.Vector({
+            url: 'data/playgrounds.geojson',
+            format: new ol.format.GeoJSON({
+               defaultDataProjection :'EPSG:4326', 
+               projection: 'EPSG:3857'
+            })
+         }),
+         name: 'playgrounds',
+        style: styles_school
+      });
+
+// Add schools from Overpass
+      var vector_school =new ol.layer.Vector({
+         source: new ol.source.Vector({
+            url: 'data/schools.geojson',
+            format: new ol.format.GeoJSON({
+               defaultDataProjection :'EPSG:4326', 
+               projection: 'EPSG:3857'
+            })
+         }),
+         name: 'schools',
+        style: styles_playground
+      });
+
+// Add addresses from allhomes.com.au
+      var vector_address = new ol.layer.Vector({
+         source: new ol.source.Vector({
+            url: 'addresses.geojson',
+            format: new ol.format.GeoJSON({
+               defaultDataProjection :'EPSG:4326', 
+               projection: 'EPSG:3857'
+            })
+         }),
+         name: 'addresses',
+        style: styles_address
+      });
+
+
+// Draw map
+var map = new ol.Map({
+    layers: [raster,vector_playground,vector_address,vector_school],
+    target: document.getElementById('map'),
+    view: new ol.View({
+      center: ol.proj.fromLonLat([149.145187,-35.26162]),  // Set centre of map
+      zoom: 12.5,  // Set zoom level 
+      units: 'm'
+    })
+});
+//-------------
+
+var lat;
+var lon;
+
+var showAddressCircle = function(name,lon,lat) {
+        
+    var view = map.getView();
+    var projection = view.getProjection();
+    var resolutionAtEquator = view.getResolution();
+
+    var center = ol.proj.transform([lon,lat], 'EPSG:4326', 'EPSG:3857');
+    var pointResolution = projection.getPointResolution(resolutionAtEquator, center);
+    var resolutionFactor = resolutionAtEquator/pointResolution;
+    var radius = (1000 / ol.proj.METERS_PER_UNIT.m) * resolutionFactor;
+
+    var circle = new ol.geom.Circle(center, radius);
+    var circleFeature = new ol.Feature(circle);
+
+    // Source and vector layer
+    var vectorSource = new ol.source.Vector({
+        projection: 'EPSG:4326'
+    });
+
+    vectorSource.addFeature(circleFeature);
+
+    var vectorLayer = new ol.layer.Vector({
+        source: vectorSource
+    });
+
+    map.addLayer(vectorLayer);
+
+};
+
+// var name;
+
+// var length = 8;
+//     d3.json("addresses.geojson", function(data) {
+//         for (i = 0; i < length; i++) {
+        
+//           lon = data.features[i].geometry.coordinates[0]; 
+//           lat = data.features[i].geometry.coordinates[1]; 
+//           name = data.features[i].properties.name;
+//           console.log(name);
+
+//          // if (name ===)
+//           showAddressCircle(name,lon,lat);
+//         }
+
+//       }
+//       );
+    //----------------
+
+
+      var displayFeatureInfo = function(pixel) {
+            var features = [];
+            map.forEachFeatureAtPixel(pixel, function(feature) {
+              features.push(feature);
+            });
+            if (features.length > 0) {
+              var info = [];
+              var i, ii;
+              for (i = 0, ii = features.length; i < ii; ++i) {
+                info.push(features[i].get('name'));
+              }
+              document.getElementById('info').innerHTML = info.join(', ') || '(unknown)';
+              map.getTarget().style.cursor = 'pointer';
+            } else {
+              document.getElementById('info').innerHTML = '&nbsp;';
+              map.getTarget().style.cursor = '';
+            }
+      };
+
+      map.on('pointermove', function(evt) {
+        if (evt.dragging) {
+          return;
+        }
+        var pixel = map.getEventPixel(evt.originalEvent);
+        displayFeatureInfo(pixel);
+      });
+
+      map.on('click', function(evt) {
+        displayFeatureInfo(evt.pixel);
+
+      });
+
+
+      map.getLayers().forEach(function(el) {
+  if (el.get('name') === 'schools') {
+    var source = el.getSource();
+    if(source.getState() === 'ready'){
+        console.log(source.getFeatures());
+    }
+
+  }
+})
+
+
+</script>
+
+
+
+
+  </body>
+</html>
+

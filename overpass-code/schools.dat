@@ -1,0 +1,16 @@
+<!--
+This is a simple map call.
+It returns all data in the bounding box.
+-->
+<osm-script output="xml" date="2014-05-06">
+  <union into="_">
+    <bbox-query {{bbox}}/>
+    <recurse type="up"/>
+    <recurse type="down"/>
+       <query type="node">
+      <has-kv k="building" v="school"/>
+
+    </query>
+  </union>
+  <print mode="meta" order="quadtile"/>
+</osm-script>
