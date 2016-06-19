@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>// homely \\</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+    <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+       <script src='https://raw.github.com/calvinmetcalf/leaflet-ajax/master/dist/leaflet.ajax.min.js'></script>
+    
+
+  </head>
+
+
+
+  <body>
+
+
+
+    <!-- <div class="container"> -->
+
+ 
+          <div id="info" class="info">
+        text text text text text text text text text text text text text text text
+      </div>
+
+      <div id="map" class="map"></div>
+<!--     <div id="popup" class="ol-popup">
+      <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+      <div id="popup-content"></div>
+    </div> -->
+
+
+
+         <div id="details" class="details">
+        text text text text text text text text text text text text text text text
+      </div>
+
+
+         <div id="header" class="header">
+        text text text text text text text 
+      </div>
+
+
+<!-- </div> -->
+<script>
+var map = L.map('map');
+var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+  var osmAttrib='Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
+  var osm = new L.TileLayer(osmUrl, {minZoom: 10, maxZoom: 15, attribution: osmAttrib});   
+
+  // start the map in South-East England
+  map.setView([-35.26162,149.145187],12);
+  map.addLayer(osm);
+
+
+
+var houseIcon = L.icon({
+    iconUrl: 'house-icon.png',
+    shadowUrl: 'house-icon.png',
+
+    iconSize:     [38, 95], // size of the icon
+    shadowSize:   [50, 64], // size of the shadow
+    iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+    shadowAnchor: [4, 62],  // the same for the shadow
+    popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+});
+
+
+var myStyle = {"icon": houseIcon, "weight": 4, "opacity": 0.65};
+
+var geojsonLayer = new L.GeoJSON.AJAX('addresses-working.geojson', 
+    {
+      onEachFeature:popUp
+    }, 
+    {
+      pointToLayer: function(feature, latlng) {
+ var smallIcon = new L.Icon({
+     iconSize: [27, 27],
+     iconAnchor: [13, 27],
+     popupAnchor:  [1, -24],
+     iconUrl: 'icone/chapel-2.png'
+ });
+
+       return L.marker(latlng, {icon: smallIcon});
+      }
+    }//,
+
+    // {
+    //     style:myStyle
+    // }
+
+
+    );
+
+
+
+geojsonLayer.addTo(map);
+
+function popUp(feature, layer) {
+    layer.bindPopup(feature.properties.name);
+}
+
+</script>
+
+
+
+
+  </body>
+</html>
+
+
+
+
+
+
