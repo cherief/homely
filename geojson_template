@@ -1,0 +1,2 @@
+'{{ \n "type": "Feature", \n "id": "node/{0}", \n "properties": {{ \n \t "@id": "node/{0}", \n "propertytype": "{1}", \n "name": "{2}", \n "url": "{3}", \n "address": "{4}", \n "price": "{5}", \n "bedrooms": "{6}", \n "bathrooms": "{7}", \n "garages": "{8}", \n "UV": "{9}", \n "EER": "{10}", \n "blocksize": "{11}", \n "housesize": "{12}",\n "@timestamp": "{13}" \n }}, \n "geometry": {{\n "type": "Point", \n "coordinates": [ \n {14}, \n {15} \n] \n \t }} \n }} '
+

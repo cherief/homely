@@ -2,12 +2,28 @@
 <html>
   <head>
     <title>// homely \\</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
-
+    <meta charset="utf-8">
+    <!-- JQuery -->
+    <script src="jquery.js"></script>
+   
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="style-leaflet.css" type="text/css">
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
     <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
-       <script src='https://raw.github.com/calvinmetcalf/leaflet-ajax/master/dist/leaflet.ajax.min.js'></script>
-    
+
+    <!-- JQuery UI -->
+
+
+<!-- <link href=
+    "http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" rel=
+    "stylesheet">
+   // <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script> -->
+
+
+<link href=
+    "http://code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css" rel=
+    "stylesheet">
+   <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
 
   </head>
 
@@ -15,39 +31,91 @@
 
   <body>
 
-
-
-    <!-- <div class="container"> -->
-
- 
-          <div id="info" class="info">
-        text text text text text text text text text text text text text text text
-      </div>
-
+      <!-- Add map using leaflet -->
       <div id="map" class="map"></div>
-<!--     <div id="popup" class="ol-popup">
-      <a href="#" id="popup-closer" class="ol-popup-closer"></a>
-      <div id="popup-content"></div>
-    </div> -->
+
+
+      <!-- HEADER -->
+  <div id="header" class="header">
+
+        <span> <img src="homely-icon.jpg" height="26px"/></span>
+
+
+        <span id="homely">HOMELY</span>
+
+<!--           <span class="dropdown">
+            <button class="dropbtn">Export</button>
+            <div class="dropdown-content">
+                <a href="#">HTML</a>
+                <a href="#">CSV</a>
+                <a href="#">GEOJSON</a>
+            </div>
+          </span> -->
+
+          <button class="nav" onclick="openNav()">Filter</button>
+
+  </div>
+
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#215</a>
+            <span class="filtertype">Property Type: </span><br>
+            <input type="checkbox" value="None" id="houseCB" checked="true" />House
+            <input type="checkbox" value="None" id="apartmentCB" checked="true" />Apartment
+            <input type="checkbox" value="None" id="townhouseCB" checked="true" />Townhouse
+
+            <p>
+            <span class="filtertype">Property Type: </span><br>
+            <input type="checkbox" value="None" id="houseCB" checked="true" />House
+            <input type="checkbox" value="None" id="apartmentCB" checked="true" />Apartment
+            <input type="checkbox" value="None" id="townhouseCB" checked="true" />Townhouse
+
+            <p>
+            <span class="filtertype">EER: </span><input type="text" id="EERvalue" readonly style="border:0; color:#f6931f; font-weight:bold;"><br>
+            <div id="EERslider"></div> 
+            <p><p>
+            <button class="updatebtn" onclick="updateLayers()">Update</button>
 
 
 
-         <div id="details" class="details">
-        text text text text text text text text text text text text text text text
-      </div>
+        </div>
 
 
-         <div id="header" class="header">
-        text text text text text text text 
-      </div>
 
-
-<!-- </div> -->
 <script>
-var map = L.map('map');
+
+  $(function() {
+    $( "#EERslider" ).slider({
+      range: true,
+      min: 0,
+      max: 10,
+      step: 1,
+      values: [ 2, 8 ],
+      slide: function( event, ui ) {
+        $( "#EERvalue" ).val( ui.values[ 0 ] + " - " + ui.values[ 1 ] );
+      }
+    });
+    $( "#EERvalue" ).val($( "#EERslider" ).slider( "values", 0 ) +
+      " - " + $( "#EERslider" ).slider( "values", 1 ) );
+  });
+
+function openNav() {
+    document.getElementById("mySidenav").style.display = "block";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.display = "none";
+}
+
+var map = L.map('map',{zoomControl:false});
+
+
+//add zoom control with your options
+L.control.zoom({
+     position:'bottomleft'
+}).addTo(map);
 var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
   var osmAttrib='Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
-  var osm = new L.TileLayer(osmUrl, {minZoom: 10, maxZoom: 15, attribution: osmAttrib});   
+  var osm = new L.TileLayer(osmUrl); //, {attribution: osmAttrib});   
 
   // start the map in South-East England
   map.setView([-35.26162,149.145187],12);
@@ -55,51 +123,142 @@ var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 
 
 
-var houseIcon = L.icon({
-    iconUrl: 'house-icon.png',
-    shadowUrl: 'house-icon.png',
+var houseIconOrange = L.icon({
+    iconUrl: 'house-icon-orange.png',
+    iconSize:     [25, 27], // size of the icon
+    iconAnchor:   [12, 27], // point of the icon which will correspond to marker's location
+    popupAnchor:  [1, -35] // point from which the popup should open relative to the iconAnchor
+});
 
-    iconSize:     [38, 95], // size of the icon
-    shadowSize:   [50, 64], // size of the shadow
-    iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
-    shadowAnchor: [4, 62],  // the same for the shadow
-    popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+var houseIconRed = L.icon({
+    iconUrl: 'house-icon-red.png',
+    iconSize:     [25, 27], // size of the icon
+    iconAnchor:   [12, 27], // point of the icon which will correspond to marker's location
+    popupAnchor:  [1, -35] // point from which the popup should open relative to the iconAnchor
 });
 
 
-var myStyle = {"icon": houseIcon, "weight": 4, "opacity": 0.65};
+  function onEachFeature(feature, layer) {
+    //console.log(feature);
+    layer.bindPopup("<b>" + feature.properties.name + "</b><br>" + feature.properties.price);
+  }
+ 
 
-var geojsonLayer = new L.GeoJSON.AJAX('addresses-working.geojson', 
-    {
-      onEachFeature:popUp
-    }, 
-    {
-      pointToLayer: function(feature, latlng) {
- var smallIcon = new L.Icon({
-     iconSize: [27, 27],
-     iconAnchor: [13, 27],
-     popupAnchor:  [1, -24],
-     iconUrl: 'icone/chapel-2.png'
- });
+var geojsonLayer = $.getJSON("addresses.geojson");
 
-       return L.marker(latlng, {icon: smallIcon});
-      }
-    }//,
+geojsonLayer.then(function(data) {
 
-    // {
-    //     style:myStyle
-    // }
+        
+        var allbusinesses = L.geoJson(data);
 
-
-    );
+        // THIS IS NEW
+        var house = L.geoJson(data, {
+            filter: function(feature, layer) {
+                return feature.properties.propertytype == "House";
+            },
+            pointToLayer: function(feature, latlng) {
+                return L.marker(latlng, {
+                    icon: houseIconOrange
+                })
+            },
+            onEachFeature: onEachFeature
+        });
 
 
+        var others = L.geoJson(data, {
+            filter: function(feature, layer) {
+                return feature.properties.propertytype != "House";
+            },
+            pointToLayer: function(feature, latlng) {
+                return L.marker(latlng, {
+                    icon: houseIconRed
+                })
+            },
+            onEachFeature: onEachFeature
+        });
+       
+        map.fitBounds(allbusinesses.getBounds(), {
+            padding: [50, 50]
+        });
 
-geojsonLayer.addTo(map);
+        // THIS IS NEW
+        house.addTo(map)
+        others.addTo(map)
+    });
 
-function popUp(feature, layer) {
-    layer.bindPopup(feature.properties.name);
+function updateLayers() {
+    //console.log(document.getElementById('houseCB').checked);
+
+    map.eachLayer(function (layer) {
+      map.removeLayer(layer);
+    });
+
+
+    geojsonLayer.then(function(data) {
+
+        
+        var allbusinesses = L.geoJson(data);
+
+        // THIS IS NEW
+        
+          var house = L.geoJson(data, {
+              filter: function(feature, layer) {
+                  return feature.properties.propertytype == "House";
+              },
+              pointToLayer: function(feature, latlng) {
+                  return L.marker(latlng, {
+                      icon: houseIconOrange
+                  })
+              },
+              onEachFeature: onEachFeature
+          });
+
+
+
+
+        var apartment = L.geoJson(data, {
+            filter: function(feature, layer) {
+                return feature.properties.propertytype == "Apartment";
+            },
+            pointToLayer: function(feature, latlng) {
+                return L.marker(latlng, {
+                    icon: houseIconRed
+                })
+            },
+            onEachFeature: onEachFeature
+        });
+
+        var townhouse = L.geoJson(data, {
+            filter: function(feature, layer) {
+                return feature.properties.propertytype == "Townhouse";
+            },
+            pointToLayer: function(feature, latlng) {
+                return L.marker(latlng, {
+                    icon: houseIconRed
+                })
+            },
+            onEachFeature: onEachFeature
+        });
+       
+        map.fitBounds(allbusinesses.getBounds(), {
+            padding: [50, 50]
+        });
+
+
+        if (document.getElementById('houseCB').checked == true) {
+          house.addTo(map)
+        }
+        if (document.getElementById('apartmentCB').checked == true) {
+          apartment.addTo(map)
+        }
+        if (document.getElementById('townhouseCB').checked == true) {
+          townhouse.addTo(map)
+        }
+        map.addLayer(osm);
+    });
+
 }
+
 
 </script>
 

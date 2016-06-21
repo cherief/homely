@@ -77,13 +77,13 @@ def get_property_details(property_link):
     data = soup.find_all('h2',{'class':'listing-price'})
 
     try:
-        listing_price = data[0].get_text().replace('$','').replace('+','').replace(',','')
-        if '-' in listing_price:
-            listing_price = 0
-        elif 'Auction' in listing_price:
-            listing_price = 1
-        elif 'negotiation' in listing_price:
-            listing_price = 2
+        listing_price = data[0].get_text() #.replace('$','').replace('+','').replace(',','')
+        # if '-' in listing_price:
+        #     listing_price = 0 # What is this for?
+        # elif 'Auction' in listing_price:
+        #     listing_price = 1
+        # elif 'negotiation' in listing_price:
+        #     listing_price = 2
     except:
         listing_price = 0
 
@@ -122,7 +122,7 @@ def get_property_details(property_link):
 
     r.close()
 
-    print listing_price, '|', block_size,  '|', property_type, '|', unimproved_value, '|', EER
+    return listing_price, block_size, property_type, unimproved_value, EER
 
 
 

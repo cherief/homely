@@ -10,7 +10,12 @@
       "properties": {
         "@id": "node/247985030",
         "building": "house",
-        "name": "23 Bonney St, Ainslie ACT 2602, Australia",
+        "address": "23 Bonney St, Ainslie ACT 2602, Australia",
+        "name": "23 Bonney St, Ainslie",
+        "price": "$790,000",
+        "bedrooms": 4,
+        "bathrooms": 1,
+        "blocksize" : 788,
         "@timestamp": "2008-02-18T13:18:14Z"
       },
       "geometry": {
@@ -29,7 +34,12 @@
       "properties": {
         "@id": "node/247985010",
         "building": "house",
-        "name": "14 Hawdon St, Ainslie ACT 2602, Australia",
+        "address": "14 Hawdon St, Ainslie ACT 2602, Australia",
+        "name": "14 Hawdon St, Ainslie",
+        "price": "Auction",
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "blocksize" : 528,
         "@timestamp": "2008-02-18T13:18:14Z"
       },
       "geometry": {
@@ -47,8 +57,13 @@
       "id": "node/247985020",
       "properties": {
         "@id": "node/247985020",
-        "building": "house",
-        "name": "44 Campbell St, Ainslie ACT 2602, Australia",
+        "building": "townhouse",
+        "address": "44 Campbell St, Ainslie ACT 2602, Australia",
+        "name": "44 Campbell St, Ainslie",
+        "price": "$505,000",
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "blocksize" : 900,
         "@timestamp": "2008-02-18T13:18:14Z"
       },
       "geometry": {

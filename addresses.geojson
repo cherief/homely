@@ -9,16 +9,25 @@
  "id": "node/247985030", 
  "properties": { 
  	 "@id": "node/247985030", 
- "building": "house", 
+ "propertytype": "Apartment", 
  "name": "72D / 58 Wattle Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/72d-58-wattle-street-lyneham-canberra/1317208705211", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "72D / 58 Wattle Street", 
+ "price": "$269,000+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$7,013,000", 
+ "EER": "3.0", 
+ "blocksize": "1.12 Hectares (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1271529, 
+ -35.2550338 
 ] 
  	 } 
  } 
@@ -28,16 +37,25 @@
  "id": "node/247985031", 
  "properties": { 
  	 "@id": "node/247985031", 
- "building": "house", 
- "name": "2/63 Melba Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/2-63-melba-street-downer-canberra/1317066405411", 
+ "propertytype": "Unit", 
+ "name": "5/43 Gardiner Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "5/43 Gardiner Street", 
+ "price": "$189,000", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "0.0", 
+ "blocksize": "1277 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1467161, 
+ -35.2447987 
 ] 
  	 } 
  } 
@@ -47,16 +65,25 @@
  "id": "node/247985032", 
  "properties": { 
  	 "@id": "node/247985032", 
- "building": "house", 
- "name": "5/63 Melba Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/5-63-melba-street-downer-canberra/1317135578611", 
+ "propertytype": "Unit", 
+ "name": "2/63 Melba Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "2/63 Melba Street", 
+ "price": "$199,000+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "1.5", 
+ "blocksize": "923.0 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1429636, 
+ -35.2429271 
 ] 
  	 } 
  } 
@@ -66,16 +93,25 @@
  "id": "node/247985033", 
  "properties": { 
  	 "@id": "node/247985033", 
- "building": "house", 
- "name": "10/43 Gardiner Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/10-43-gardiner-street-downer-canberra/1316987579311", 
+ "propertytype": "Unit", 
+ "name": "5/63 Melba Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "5/63 Melba Street", 
+ "price": "$220,000", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "0.0", 
+ "blocksize": "923.0 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1429636, 
+ -35.2429271 
 ] 
  	 } 
  } 
@@ -85,16 +121,25 @@
  "id": "node/247985034", 
  "properties": { 
  	 "@id": "node/247985034", 
- "building": "house", 
- "name": "59 Melba Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/59-melba-street-downer-canberra/1316867514011", 
+ "propertytype": "Unit", 
+ "name": "10/43 Gardiner Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "10/43 Gardiner Street", 
+ "price": "$260,000+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "6.0", 
+ "blocksize": "1277.4 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1467161, 
+ -35.2447987 
 ] 
  	 } 
  } 
@@ -104,16 +149,25 @@
  "id": "node/247985035", 
  "properties": { 
  	 "@id": "node/247985035", 
- "building": "house", 
- "name": "1/34 Frencham Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/1-34-frencham-street-downer-canberra/1317221373311", 
+ "propertytype": "Retirement Village", 
+ "name": "59 Melba Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "59 Melba Street", 
+ "price": "$300,000-$465,000", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "None", 
+ "blocksize": "6210 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1430011, 
+ -35.2436293 
 ] 
  	 } 
  } 
@@ -123,16 +177,25 @@
  "id": "node/247985036", 
  "properties": { 
  	 "@id": "node/247985036", 
- "building": "house", 
- "name": "25A Bradfield Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/25a-bradfield-street-downer-canberra/1317185320611", 
+ "propertytype": "Townhouse", 
+ "name": "1/34 Frencham Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "1/34 Frencham Street", 
+ "price": "$750,000", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$486,000", 
+ "EER": "6.1", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1461284, 
+ -35.2441781 
 ] 
  	 } 
  } 
@@ -142,16 +205,25 @@
  "id": "node/247985037", 
  "properties": { 
  	 "@id": "node/247985037", 
- "building": "house", 
- "name": "99 Hannan Place", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/99-hannan-place-ainslie-canberra/1317218374011", 
+ "propertytype": "Townhouse", 
+ "name": "25A Bradfield Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "25A Bradfield Street", 
+ "price": "Price by negotiation", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$481,000", 
+ "EER": "6.0", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1464592, 
+ -35.243388 
 ] 
  	 } 
  } 
@@ -161,16 +233,25 @@
  "id": "node/247985038", 
  "properties": { 
  	 "@id": "node/247985038", 
- "building": "house", 
- "name": "143 Duffy Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/143-duffy-street-ainslie-canberra/1317217543011", 
+ "propertytype": "House", 
+ "name": "99 Hannan Place", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "99 Hannan Place", 
+ "price": "Auction at 6:00 pm on Wed, 22 Jun 2016", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$472,000", 
+ "EER": "0.0", 
+ "blocksize": "733.0 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1542667, 
+ -35.2527328 
 ] 
  	 } 
  } 
@@ -180,16 +261,25 @@
  "id": "node/247985039", 
  "properties": { 
  	 "@id": "node/247985039", 
- "building": "house", 
- "name": "18 Winnecke Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/18-winnecke-street-ainslie-canberra/1317226640311", 
+ "propertytype": "Land", 
+ "name": "143 Duffy Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "143 Duffy Street", 
+ "price": "Auction at 6:00 pm on", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$568,000", 
+ "EER": "None", 
+ "blocksize": "720.3 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1553197, 
+ -35.2559775 
 ] 
  	 } 
  } 
@@ -199,16 +289,25 @@
  "id": "node/247985040", 
  "properties": { 
  	 "@id": "node/247985040", 
- "building": "house", 
- "name": "1/12 Cox", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/1-12-cox-ainslie-canberra/1317227644611", 
+ "propertytype": "House", 
+ "name": "18 Winnecke Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "18 Winnecke Street", 
+ "price": "Auction at 11:00 am on", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$664,000", 
+ "EER": "2.5", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1476388, 
+ -35.2722688 
 ] 
  	 } 
  } 
@@ -218,16 +317,25 @@
  "id": "node/247985041", 
  "properties": { 
  	 "@id": "node/247985041", 
- "building": "house", 
- "name": "4/1 Cowper Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/4-1-cowper-street-ainslie-canberra/1317206208411", 
+ "propertytype": "House", 
+ "name": "1/12 Cox Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "1/12 Cox Street", 
+ "price": "Auction at 2:30 pm on Sat, 9 Jul 2016", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "4.5", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1425494, 
+ -35.2637882 
 ] 
  	 } 
  } 
@@ -237,16 +345,25 @@
  "id": "node/247985042", 
  "properties": { 
  	 "@id": "node/247985042", 
- "building": "house", 
- "name": "91A Officer Crescent", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/91a-officer-crescent-ainslie-canberra/1317210814211", 
+ "propertytype": "Townhouse", 
+ "name": "4/1 Cowper Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "4/1 Cowper Street", 
+ "price": "$685,000", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "4.5", 
+ "blocksize": "395.6 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1380829, 
+ -35.2649446 
 ] 
  	 } 
  } 
@@ -256,16 +373,25 @@
  "id": "node/247985043", 
  "properties": { 
  	 "@id": "node/247985043", 
- "building": "house", 
- "name": "23 Bonney Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/23-bonney-street-ainslie-canberra/1317196503711", 
+ "propertytype": "Dual Occupancy", 
+ "name": "91A Officer Crescent", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "91A Officer Crescent", 
+ "price": "$780,000", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$568,000", 
+ "EER": "5.0", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1542247, 
+ -35.2515616 
 ] 
  	 } 
  } 
@@ -275,16 +401,25 @@
  "id": "node/247985044", 
  "properties": { 
  	 "@id": "node/247985044", 
- "building": "house", 
- "name": "11 Archer Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/11-archer-street-dickson-canberra/1317222334811", 
+ "propertytype": "House", 
+ "name": "23 Bonney Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "23 Bonney Street", 
+ "price": "$1,200,000+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$637,000", 
+ "EER": "1.5", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1402519, 
+ -35.262249 
 ] 
  	 } 
  } 
@@ -294,16 +429,25 @@
  "id": "node/247985045", 
  "properties": { 
  	 "@id": "node/247985045", 
- "building": "house", 
- "name": "57 Lowrie Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/57-lowrie-street-dickson-canberra/1317223807511", 
+ "propertytype": "House", 
+ "name": "11 Archer Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "11 Archer Street", 
+ "price": "Auction at 6:00 pm on Wed, 22 Jun 2016", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$542,000", 
+ "EER": "1.0", 
+ "blocksize": "885.0 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1407863, 
+ -35.2554062 
 ] 
  	 } 
  } 
@@ -313,16 +457,25 @@
  "id": "node/247985046", 
  "properties": { 
  	 "@id": "node/247985046", 
- "building": "house", 
- "name": "1 Bates Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/1-bates-street-dickson-canberra/1317225014711", 
+ "propertytype": "House", 
+ "name": "57 Lowrie Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "57 Lowrie Street", 
+ "price": "Auction at 12:30 pm on", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$499,000", 
+ "EER": "0.0", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1361508, 
+ -35.2546588 
 ] 
  	 } 
  } 
@@ -332,16 +485,25 @@
  "id": "node/247985047", 
  "properties": { 
  	 "@id": "node/247985047", 
- "building": "house", 
- "name": "56 Dumaresq Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/56-dumaresq-street-dickson-canberra/1317226602911", 
+ "propertytype": "House", 
+ "name": "1 Bates Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "1 Bates Street", 
+ "price": "Auction at 10:30 am on Sat, 2 Jul 2016", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$705,000", 
+ "EER": "3.0", 
+ "blocksize": "557.0 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1450882, 
+ -35.2537994 
 ] 
  	 } 
  } 
@@ -351,16 +513,25 @@
  "id": "node/247985048", 
  "properties": { 
  	 "@id": "node/247985048", 
- "building": "house", 
- "name": "1/108 Davenport Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/1-108-davenport-street-dickson-canberra/1317135927411", 
+ "propertytype": "House", 
+ "name": "56 Dumaresq Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "56 Dumaresq Street", 
+ "price": "Auction at 10:00 am on Sat, 9 Jul 2016", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$420,000", 
+ "EER": "3.5", 
+ "blocksize": "514.0 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1464485, 
+ -35.2513213 
 ] 
  	 } 
  } 
@@ -370,16 +541,25 @@
  "id": "node/247985049", 
  "properties": { 
  	 "@id": "node/247985049", 
- "building": "house", 
- "name": "8/17-23 Majura Avenue", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/8-17-23-majura-avenue-dickson-canberra/1316892445411", 
+ "propertytype": "Apartment", 
+ "name": "1/108 Davenport Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "1/108 Davenport Street", 
+ "price": "$310,000+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "2.0", 
+ "blocksize": "1144 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.140629, 
+ -35.2519292 
 ] 
  	 } 
  } 
@@ -389,16 +569,25 @@
  "id": "node/247985050", 
  "properties": { 
  	 "@id": "node/247985050", 
- "building": "house", 
- "name": "32 Stockdale Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/32-stockdale-street-dickson-canberra/1316939091211", 
+ "propertytype": "Apartment", 
+ "name": "8/17-23 Majura Avenue", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "8/17-23 Majura Avenue", 
+ "price": "$337,000", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "5.0", 
+ "blocksize": "1287 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1363623, 
+ -35.2591986 
 ] 
  	 } 
  } 
@@ -408,16 +597,25 @@
  "id": "node/247985051", 
  "properties": { 
  	 "@id": "node/247985051", 
- "building": "house", 
- "name": "6-8 Cape Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/6-8-cape-street-dickson-canberra/1316967218411", 
+ "propertytype": "Apartment", 
+ "name": "32 Stockdale Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "32 Stockdale Street", 
+ "price": "$339,950-$369,950", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$1,275,000", 
+ "EER": "6.0", 
+ "blocksize": "894 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1372344, 
+ -35.257254 
 ] 
  	 } 
  } 
@@ -427,16 +625,25 @@
  "id": "node/247985052", 
  "properties": { 
  	 "@id": "node/247985052", 
- "building": "house", 
+ "propertytype": "Apartment", 
  "name": "Malabar - 1 Bedroom Apartment", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/malabar-1-bedroom-apartment-dickson-canberra/1317022614711", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "Malabar - 1 Bedroom Apartment", 
+ "price": "0", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "6.0", 
+ "blocksize": "7283 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.139722, 
+ -35.2525 
 ] 
  	 } 
  } 
@@ -446,16 +653,25 @@
  "id": "node/247985053", 
  "properties": { 
  	 "@id": "node/247985053", 
- "building": "house", 
- "name": "10/13 Majura Avenue", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/10-13-majura-avenue-dickson-canberra/1316958857311", 
+ "propertytype": "Apartment", 
+ "name": "6-8 Cape Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "6-8 Cape Street", 
+ "price": "$344,900-$419,900", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "5.0", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1364998, 
+ -35.2512812 
 ] 
  	 } 
  } 
@@ -465,16 +681,25 @@
  "id": "node/247985054", 
  "properties": { 
  	 "@id": "node/247985054", 
- "building": "house", 
+ "propertytype": "Apartment", 
  "name": "18/12 Challis Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/18-12-challis-street-dickson-canberra/1317158367911", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "18/12 Challis Street", 
+ "price": "$349,000", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "5.0", 
+ "blocksize": "6168 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.135469, 
+ -35.2517139 
 ] 
  	 } 
  } 
@@ -484,16 +709,25 @@
  "id": "node/247985055", 
  "properties": { 
  	 "@id": "node/247985055", 
- "building": "house", 
- "name": "11/14 Randell Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/11-14-randell-street-dickson-canberra/1317156000111", 
+ "propertytype": "Apartment", 
+ "name": "10/13 Majura Avenue", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "10/13 Majura Avenue", 
+ "price": "$349,000", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "4.5", 
+ "blocksize": "1449.3 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1362841, 
+ -35.2595697 
 ] 
  	 } 
  } 
@@ -503,16 +737,25 @@
  "id": "node/247985056", 
  "properties": { 
  	 "@id": "node/247985056", 
- "building": "house", 
- "name": "Mcgowan Place", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/mcgowan-place-dickson-canberra/1316941081411", 
+ "propertytype": "Unit", 
+ "name": "11/14 Randell Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "11/14 Randell Street", 
+ "price": "$359,000", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "6.0", 
+ "blocksize": "1361 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1350188, 
+ -35.2578431 
 ] 
  	 } 
  } 
@@ -522,16 +765,25 @@
  "id": "node/247985057", 
  "properties": { 
  	 "@id": "node/247985057", 
- "building": "house", 
- "name": "6-8 Cape Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/6-8-cape-street-dickson-canberra/1316967640911", 
+ "propertytype": "Apartment", 
+ "name": "Mcgowan Place", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "Mcgowan Place", 
+ "price": "$365,000+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "6.8", 
+ "blocksize": "778.1 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1354538, 
+ -35.2597097 
 ] 
  	 } 
  } 
@@ -541,16 +793,25 @@
  "id": "node/247985058", 
  "properties": { 
  	 "@id": "node/247985058", 
- "building": "house", 
- "name": "Malabar - 2 Bedroom Apartment", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/malabar-2-bedroom-apartment-dickson-canberra/1317022614911", 
+ "propertytype": "Apartment", 
+ "name": "6-8 Cape Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "6-8 Cape Street", 
+ "price": "$424,900-$529,900", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "5.0", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1364998, 
+ -35.2512812 
 ] 
  	 } 
  } 
@@ -560,16 +821,25 @@
  "id": "node/247985059", 
  "properties": { 
  	 "@id": "node/247985059", 
- "building": "house", 
- "name": "1/45 Majura Avenue", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/1-45-majura-avenue-dickson-canberra/1317209593111", 
+ "propertytype": "Apartment", 
+ "name": "Malabar - 2 Bedroom Apartment", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "Malabar - 2 Bedroom Apartment", 
+ "price": "0", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "6.0", 
+ "blocksize": "7283 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.139722, 
+ -35.2525 
 ] 
  	 } 
  } 
@@ -579,16 +849,25 @@
  "id": "node/247985060", 
  "properties": { 
  	 "@id": "node/247985060", 
- "building": "house", 
- "name": "Majura Key - Two and Three Bedroom Terraces", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/majura-key-two-and-three-bedroom-terraces-dickson-canberra/1317193174111", 
+ "propertytype": "Townhouse", 
+ "name": "1/45 Majura Avenue", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "1/45 Majura Avenue", 
+ "price": "$480,000", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "4.0", 
+ "blocksize": "845 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1386283, 
+ -35.257599 
 ] 
  	 } 
  } 
@@ -598,16 +877,25 @@
  "id": "node/247985061", 
  "properties": { 
  	 "@id": "node/247985061", 
- "building": "house", 
- "name": "Malabar - 3 Bedroom Apartment", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/malabar-3-bedroom-apartment-dickson-canberra/1317022615011", 
+ "propertytype": "Townhouse", 
+ "name": "Majura Key - Two and Three Bedroom Terraces", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "Majura Key - Two and Three Bedroom Terraces", 
+ "price": "0", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$448,000", 
+ "EER": "7.5", 
+ "blocksize": "725 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.139722, 
+ -35.2525 
 ] 
  	 } 
  } 
@@ -617,16 +905,25 @@
  "id": "node/247985062", 
  "properties": { 
  	 "@id": "node/247985062", 
- "building": "house", 
+ "propertytype": "Apartment", 
  "name": "6-8 Cape Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/6-8-cape-street-dickson-canberra/1316967676511", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "6-8 Cape Street", 
+ "price": "$569,900-$599,900", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "5.0", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1364998, 
+ -35.2512812 
 ] 
  	 } 
  } 
@@ -636,16 +933,25 @@
  "id": "node/247985063", 
  "properties": { 
  	 "@id": "node/247985063", 
- "building": "house", 
- "name": "The Santana - Townhouse- Unit 1 & 9", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/the-santana-townhouse-unit-1-9-dickson-canberra/1317222350111", 
+ "propertytype": "Apartment", 
+ "name": "Malabar - 3 Bedroom Apartment", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "Malabar - 3 Bedroom Apartment", 
+ "price": "0", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "6.0", 
+ "blocksize": "7283 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.139722, 
+ -35.2525 
 ] 
  	 } 
  } 
@@ -655,16 +961,25 @@
  "id": "node/247985064", 
  "properties": { 
  	 "@id": "node/247985064", 
- "building": "house", 
- "name": "47 Wilshire Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/47-wilshire-street-dickson-canberra/1317208403911", 
+ "propertytype": "Townhouse", 
+ "name": "The Santana - Townhouse- Unit 1 & 9", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "The Santana - Townhouse- Unit 1 & 9", 
+ "price": "0", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$556,000", 
+ "EER": "6.0", 
+ "blocksize": "948 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.139722, 
+ -35.2525 
 ] 
  	 } 
  } 
@@ -674,16 +989,25 @@
  "id": "node/247985065", 
  "properties": { 
  	 "@id": "node/247985065", 
- "building": "house", 
- "name": "The Santana - Townhouse - Unit 2, 3 & 4", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/the-santana-townhouse-unit-2-3-4-dickson-canberra/1317222446011", 
+ "propertytype": "Duplex", 
+ "name": "47 Wilshire Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "47 Wilshire Street", 
+ "price": "$680,000", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$444,000", 
+ "EER": "4.0", 
+ "blocksize": "599.0 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1401354, 
+ -35.2561479 
 ] 
  	 } 
  } 
@@ -693,16 +1017,25 @@
  "id": "node/247985066", 
  "properties": { 
  	 "@id": "node/247985066", 
- "building": "house", 
- "name": "The Santana - Townhouse - Unit 5 & 8", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/the-santana-townhouse-unit-5-8-dickson-canberra/1317222446111", 
+ "propertytype": "Townhouse", 
+ "name": "The Santana - Townhouse - Unit 2, 3 & 4", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "The Santana - Townhouse - Unit 2, 3 & 4", 
+ "price": "0", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$556,000", 
+ "EER": "6.0", 
+ "blocksize": "948 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.139722, 
+ -35.2525 
 ] 
  	 } 
  } 
@@ -712,16 +1045,25 @@
  "id": "node/247985067", 
  "properties": { 
  	 "@id": "node/247985067", 
- "building": "house", 
- "name": "The Santana - Townhouse - Unit 6 & 7", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/the-santana-townhouse-unit-6-7-dickson-canberra/1317222350211", 
+ "propertytype": "Townhouse", 
+ "name": "The Santana - Townhouse - Unit 5 & 8", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "The Santana - Townhouse - Unit 5 & 8", 
+ "price": "0", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$556,000", 
+ "EER": "6.0", 
+ "blocksize": "948 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.139722, 
+ -35.2525 
 ] 
  	 } 
  } 
@@ -731,16 +1073,25 @@
  "id": "node/247985068", 
  "properties": { 
  	 "@id": "node/247985068", 
- "building": "house", 
- "name": "9/40 Moore Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/9-40-moore-street-turner-canberra/1317094239111", 
+ "propertytype": "Townhouse", 
+ "name": "The Santana - Townhouse - Unit 6 & 7", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "The Santana - Townhouse - Unit 6 & 7", 
+ "price": "0", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$556,000", 
+ "EER": "6.0", 
+ "blocksize": "948 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.139722, 
+ -35.2525 
 ] 
  	 } 
  } 
@@ -750,16 +1101,25 @@
  "id": "node/247985069", 
  "properties": { 
  	 "@id": "node/247985069", 
- "building": "house", 
- "name": "22/72-74 Macleay Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/22-72-74-macleay-street-turner-canberra/1317206202911", 
+ "propertytype": "Apartment", 
+ "name": "9/40 Moore Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "9/40 Moore Street", 
+ "price": "$345,000+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "5.5", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.129036, 
+ -35.272147 
 ] 
  	 } 
  } 
@@ -769,16 +1129,25 @@
  "id": "node/247985070", 
  "properties": { 
  	 "@id": "node/247985070", 
- "building": "house", 
- "name": "143/77 Northbourne Avenue", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/143-77-northbourne-avenue-turner-canberra/1316947790511", 
+ "propertytype": "Apartment", 
+ "name": "22/72-74 Macleay Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "22/72-74 Macleay Street", 
+ "price": "$349,900", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$2,731,000", 
+ "EER": "6.0", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1290276, 
+ -35.2640969 
 ] 
  	 } 
  } 
@@ -788,16 +1157,25 @@
  "id": "node/247985071", 
  "properties": { 
  	 "@id": "node/247985071", 
- "building": "house", 
- "name": "29/29/28 Watson Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/29-29-28-watson-street-turner-canberra/1317195300011", 
+ "propertytype": "Apartment", 
+ "name": "143/77 Northbourne Avenue", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "143/77 Northbourne Avenue", 
+ "price": "$355,000", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "6.0", 
+ "blocksize": "6378.4 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1293731, 
+ -35.2751972 
 ] 
  	 } 
  } 
@@ -807,16 +1185,25 @@
  "id": "node/247985072", 
  "properties": { 
  	 "@id": "node/247985072", 
- "building": "house", 
- "name": "4/77 Northbourne Avenue", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/4-77-northbourne-avenue-turner-canberra/1317086699111", 
+ "propertytype": "Apartment", 
+ "name": "29/29/28 Watson Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "29/29/28 Watson Street", 
+ "price": "$357,000", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "None", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1265288, 
+ -35.2715241 
 ] 
  	 } 
  } 
@@ -826,16 +1213,25 @@
  "id": "node/247985073", 
  "properties": { 
  	 "@id": "node/247985073", 
- "building": "house", 
- "name": "2/29 Forbes Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/2-29-forbes-street-turner-canberra/1316857806111", 
+ "propertytype": "Apartment", 
+ "name": "4/77 Northbourne Avenue", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "4/77 Northbourne Avenue", 
+ "price": "$375,000 +", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "6.0", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1293731, 
+ -35.2751972 
 ] 
  	 } 
  } 
@@ -845,16 +1241,25 @@
  "id": "node/247985074", 
  "properties": { 
  	 "@id": "node/247985074", 
- "building": "house", 
+ "propertytype": "Apartment", 
  "name": "9/52 Macleay Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/9-52-macleay-street-turner-canberra/1317051421711", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "9/52 Macleay Street", 
+ "price": "$380,000-$495,000", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$828,000", 
+ "EER": "6.7", 
+ "blocksize": "1045.1 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1286524, 
+ -35.2667268 
 ] 
  	 } 
  } 
@@ -864,16 +1269,25 @@
  "id": "node/247985075", 
  "properties": { 
  	 "@id": "node/247985075", 
- "building": "house", 
- "name": "305/4 Masson Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/305-4-masson-street-turner-canberra/1317111481411", 
+ "propertytype": "Unit", 
+ "name": "2/29 Forbes Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "2/29 Forbes Street", 
+ "price": "$380,000+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "6.0", 
+ "blocksize": "83.14 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1298138, 
+ -35.2651558 
 ] 
  	 } 
  } 
@@ -883,16 +1297,25 @@
  "id": "node/247985076", 
  "properties": { 
  	 "@id": "node/247985076", 
- "building": "house", 
- "name": "37-39 Forbes Street - 1 Bedroom Apartment", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/37-39-forbes-street-1-bedroom-apartment-turner-canberra/1317168041311", 
+ "propertytype": "Apartment", 
+ "name": "305/4 Masson Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "305/4 Masson Street", 
+ "price": "$389,900", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$1,046,000", 
+ "EER": "5.0", 
+ "blocksize": "1442 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1295069, 
+ -35.2703988 
 ] 
  	 } 
  } 
@@ -902,16 +1325,25 @@
  "id": "node/247985077", 
  "properties": { 
  	 "@id": "node/247985077", 
- "building": "house", 
+ "propertytype": "Apartment", 
  "name": "1 -12/37-39 Forbes Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/1-12-37-39-forbes-street-turner-canberra/1317157921011", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "1 -12/37-39 Forbes Street", 
+ "price": "$390.000 - $460,000", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$578,000", 
+ "EER": "6.0", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1299144, 
+ -35.26455 
 ] 
  	 } 
  } 
@@ -921,16 +1353,25 @@
  "id": "node/247985078", 
  "properties": { 
  	 "@id": "node/247985078", 
- "building": "house", 
+ "propertytype": "House", 
  "name": "22/19 Condamine Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/22-19-condamine-street-turner-canberra/1317215683911", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "22/19 Condamine Street", 
+ "price": "$375,000", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "5.0", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1263115, 
+ -35.2659025 
 ] 
  	 } 
  } 
@@ -940,35 +1381,25 @@
  "id": "node/247985079", 
  "properties": { 
  	 "@id": "node/247985079", 
- "building": "house", 
+ "propertytype": "Apartment", 
  "name": "16/20 Condamine Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/16-20-condamine-street-turner-canberra/1317211362211", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "16/20 Condamine Street", 
+ "price": "$625,000+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "6.0", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
-] 
- 	 } 
- } 
-,
-{ 
- "type": "Feature", 
- "id": "node/247985080", 
- "properties": { 
- 	 "@id": "node/247985080", 
- "building": "house", 
- "name": "Brooklyn - 1 Bedroom Apartment", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/brooklyn-1-bedroom-apartment-turner-canberra/1317022619811", 
- "@timestamp": "2008-02-18T13:18:14Z" 
- }, 
- "geometry": {
- "type": "Point", 
- "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1282351, 
+ -35.2657335 
 ] 
  	 } 
  } 
@@ -978,73 +1409,25 @@
  "id": "node/247985081", 
  "properties": { 
  	 "@id": "node/247985081", 
- "building": "house", 
+ "propertytype": "Apartment", 
  "name": "4 Wedge Crescent", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/4-wedge-crescent-turner-canberra/1316898250411", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "4 Wedge Crescent", 
+ "price": "$414,950-$459,950", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "6.5", 
+ "blocksize": "573.1 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
-] 
- 	 } 
- } 
-,
-{ 
- "type": "Feature", 
- "id": "node/247985082", 
- "properties": { 
- 	 "@id": "node/247985082", 
- "building": "house", 
- "name": "Brooklyn - 1 Bedroom Apartment", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/brooklyn-1-bedroom-apartment-turner-canberra/1317223617011", 
- "@timestamp": "2008-02-18T13:18:14Z" 
- }, 
- "geometry": {
- "type": "Point", 
- "coordinates": [ 
- 0.1, 
- 0.1 
-] 
- 	 } 
- } 
-,
-{ 
- "type": "Feature", 
- "id": "node/247985083", 
- "properties": { 
- 	 "@id": "node/247985083", 
- "building": "house", 
- "name": "Brooklyn - 1 Bedroom Apartment", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/brooklyn-1-bedroom-apartment-turner-canberra/1317223617111", 
- "@timestamp": "2008-02-18T13:18:14Z" 
- }, 
- "geometry": {
- "type": "Point", 
- "coordinates": [ 
- 0.1, 
- 0.1 
-] 
- 	 } 
- } 
-,
-{ 
- "type": "Feature", 
- "id": "node/247985084", 
- "properties": { 
- 	 "@id": "node/247985084", 
- "building": "house", 
- "name": "Brooklyn - 1 Bedroom Apartment", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/brooklyn-1-bedroom-apartment-turner-canberra/1317223622011", 
- "@timestamp": "2008-02-18T13:18:14Z" 
- }, 
- "geometry": {
- "type": "Point", 
- "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1299736, 
+ -35.2626107 
 ] 
  	 } 
  } 
@@ -1054,16 +1437,25 @@
  "id": "node/247985085", 
  "properties": { 
  	 "@id": "node/247985085", 
- "building": "house", 
+ "propertytype": "Apartment", 
  "name": "66/77 Northbourne Avenue", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/66-77-northbourne-avenue-turner-canberra/1317216821011", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "66/77 Northbourne Avenue", 
+ "price": "$480,000+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "6.0", 
+ "blocksize": "6378 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1293731, 
+ -35.2751972 
 ] 
  	 } 
  } 
@@ -1073,16 +1465,25 @@
  "id": "node/247985086", 
  "properties": { 
  	 "@id": "node/247985086", 
- "building": "house", 
+ "propertytype": "House", 
  "name": "3/50 Moore Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/3-50-moore-street-turner-canberra/1317205564511", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "3/50 Moore Street", 
+ "price": "$509,000", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "0.0", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1291719, 
+ -35.2712883 
 ] 
  	 } 
  } 
@@ -1092,16 +1493,25 @@
  "id": "node/247985087", 
  "properties": { 
  	 "@id": "node/247985087", 
- "building": "house", 
+ "propertytype": "Apartment", 
  "name": "145/77 Northbourne Avenue", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/145-77-northbourne-avenue-turner-canberra/1317208340211", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "145/77 Northbourne Avenue", 
+ "price": "$520,000+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "6.0", 
+ "blocksize": "6378 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1293731, 
+ -35.2751972 
 ] 
  	 } 
  } 
@@ -1111,16 +1521,25 @@
  "id": "node/247985088", 
  "properties": { 
  	 "@id": "node/247985088", 
- "building": "house", 
- "name": "37-39 Forbes Street - 2 Bedroom Apartment", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/37-39-forbes-street-2-bedroom-apartment-turner-canberra/1317168055411", 
+ "propertytype": "Apartment", 
+ "name": "1 -12/37-39 Forbes Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "1 -12/37-39 Forbes Street", 
+ "price": "$539,000 - $610,000", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$578,000", 
+ "EER": "6.0", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1299144, 
+ -35.26455 
 ] 
  	 } 
  } 
@@ -1130,16 +1549,25 @@
  "id": "node/247985089", 
  "properties": { 
  	 "@id": "node/247985089", 
- "building": "house", 
- "name": "1 -12/37-39 Forbes Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/1-12-37-39-forbes-street-turner-canberra/1317157920011", 
+ "propertytype": "Apartment", 
+ "name": "1-8/19 Forbes Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "1-8/19 Forbes Street", 
+ "price": "$549,900", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$718,000", 
+ "EER": "7.0", 
+ "blocksize": "973.6 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1295832, 
+ -35.2665932 
 ] 
  	 } 
  } 
@@ -1149,16 +1577,25 @@
  "id": "node/247985090", 
  "properties": { 
  	 "@id": "node/247985090", 
- "building": "house", 
- "name": "1-8/19 Forbes Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/1-8-19-forbes-street-turner-canberra/1317063307011", 
+ "propertytype": "Unit", 
+ "name": "11/5 Gould Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "11/5 Gould Street", 
+ "price": "$569,000", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "6.0", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1291666, 
+ -35.2727668 
 ] 
  	 } 
  } 
@@ -1168,16 +1605,25 @@
  "id": "node/247985091", 
  "properties": { 
  	 "@id": "node/247985091", 
- "building": "house", 
- "name": "11/5 Gould Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/11-5-gould-street-turner-canberra/1317161305211", 
+ "propertytype": "House", 
+ "name": "109/155 Northbourne Avenue", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "109/155 Northbourne Avenue", 
+ "price": "$599,950+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "6.0", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1309048, 
+ -35.2656865 
 ] 
  	 } 
  } 
@@ -1187,16 +1633,25 @@
  "id": "node/247985092", 
  "properties": { 
  	 "@id": "node/247985092", 
- "building": "house", 
- "name": "109/155 Northbourne Avenue", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/109-155-northbourne-avenue-turner-canberra/1317214539111", 
+ "propertytype": "Apartment", 
+ "name": "131/77 Northbourne Avenue", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "131/77 Northbourne Avenue", 
+ "price": "$679,900", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "5.5", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1293731, 
+ -35.2751972 
 ] 
  	 } 
  } 
@@ -1206,16 +1661,25 @@
  "id": "node/247985093", 
  "properties": { 
  	 "@id": "node/247985093", 
- "building": "house", 
- "name": "131/77 Northbourne Avenue", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/131-77-northbourne-avenue-turner-canberra/1317192593011", 
+ "propertytype": "Apartment", 
+ "name": "2/15 Towns Crescent", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "2/15 Towns Crescent", 
+ "price": "$670,000.00 +", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "4.0", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1284437, 
+ -35.2632057 
 ] 
  	 } 
  } 
@@ -1225,16 +1689,25 @@
  "id": "node/247985094", 
  "properties": { 
  	 "@id": "node/247985094", 
- "building": "house", 
- "name": "2/15 Towns Crescent", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/2-15-towns-crescent-turner-canberra/1317163143511", 
+ "propertytype": "Apartment", 
+ "name": "18/9 Wedge Crescent", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "18/9 Wedge Crescent", 
+ "price": "$720,000+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "6.0", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1293618, 
+ -35.2625855 
 ] 
  	 } 
  } 
@@ -1244,16 +1717,25 @@
  "id": "node/247985095", 
  "properties": { 
  	 "@id": "node/247985095", 
- "building": "house", 
- "name": "18/9 Wedge Crescent", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/18-9-wedge-crescent-turner-canberra/1317207337711", 
+ "propertytype": "Townhouse", 
+ "name": "8 Holder Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "8 Holder Street", 
+ "price": "$799,900+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$748,000", 
+ "EER": "8.0", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1272037, 
+ -35.2676538 
 ] 
  	 } 
  } 
@@ -1263,16 +1745,25 @@
  "id": "node/247985096", 
  "properties": { 
  	 "@id": "node/247985096", 
- "building": "house", 
- "name": "8 Holder Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/8-holder-street-turner-canberra/1317224808811", 
+ "propertytype": "Other", 
+ "name": "43A Froggatt Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "43A Froggatt Street", 
+ "price": "$1,100,000", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$957,000", 
+ "EER": "4.0", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1188972, 
+ -35.2680431 
 ] 
  	 } 
  } 
@@ -1282,16 +1773,25 @@
  "id": "node/247985097", 
  "properties": { 
  	 "@id": "node/247985097", 
- "building": "house", 
- "name": "43A Froggatt Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/43a-froggatt-street-turner-canberra/1317208432111", 
+ "propertytype": "Townhouse", 
+ "name": "18 Greenway Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "18 Greenway Street", 
+ "price": "$1,290,000+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$789,000", 
+ "EER": "6.0", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.127212, 
+ -35.2683928 
 ] 
  	 } 
  } 
@@ -1301,16 +1801,25 @@
  "id": "node/247985098", 
  "properties": { 
  	 "@id": "node/247985098", 
- "building": "house", 
- "name": "18 Greenway Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/18-greenway-street-turner-canberra/1317171481111", 
+ "propertytype": "Townhouse", 
+ "name": "13 Holder Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "13 Holder Street", 
+ "price": "$1,050,000-$1,225,000", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$789,000", 
+ "EER": "6.0", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1266637, 
+ -35.2667617 
 ] 
  	 } 
  } 
@@ -1320,16 +1829,25 @@
  "id": "node/247985099", 
  "properties": { 
  	 "@id": "node/247985099", 
- "building": "house", 
- "name": "13 Holder Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/13-holder-street-turner-canberra/1317145820911", 
+ "propertytype": "House", 
+ "name": "19 Glover Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "19 Glover Street", 
+ "price": "Auction at 12:00 pm on Sat, 25 Jun 2016", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$450,000", 
+ "EER": "1.0", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1243675, 
+ -35.2482764 
 ] 
  	 } 
  } 
@@ -1339,16 +1857,25 @@
  "id": "node/247985100", 
  "properties": { 
  	 "@id": "node/247985100", 
- "building": "house", 
- "name": "HAIG - 3 Bedroom Residence", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/haig-3-bedroom-residence-turner-canberra/1317191808111", 
+ "propertytype": "Apartment", 
+ "name": "17A/62 Wattle Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "17A/62 Wattle Street", 
+ "price": "$230,000+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "1.5", 
+ "blocksize": "8763 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.126226, 
+ -35.2540494 
 ] 
  	 } 
  } 
@@ -1358,16 +1885,25 @@
  "id": "node/247985101", 
  "properties": { 
  	 "@id": "node/247985101", 
- "building": "house", 
- "name": "95 Brigalow Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/95-brigalow-street-lyneham-canberra/1317218666711", 
+ "propertytype": "Apartment", 
+ "name": "4/25 Mackennal Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "4/25 Mackennal Street", 
+ "price": "$230,000+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "2.0", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1222127, 
+ -35.2482421 
 ] 
  	 } 
  } 
@@ -1377,16 +1913,25 @@
  "id": "node/247985102", 
  "properties": { 
  	 "@id": "node/247985102", 
- "building": "house", 
- "name": "19 Glover Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/19-glover-street-lyneham-canberra/1317222297411", 
+ "propertytype": "Apartment", 
+ "name": "12B/62 Wattle Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "12B/62 Wattle Street", 
+ "price": "$235,000+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "0.5", 
+ "blocksize": "8763 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.126226, 
+ -35.2540494 
 ] 
  	 } 
  } 
@@ -1396,16 +1941,25 @@
  "id": "node/247985103", 
  "properties": { 
  	 "@id": "node/247985103", 
- "building": "house", 
- "name": "4/25 Mackennal Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/4-25-mackennal-street-lyneham-canberra/1317221713011", 
+ "propertytype": "Apartment", 
+ "name": "8C/62 Wattle Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "8C/62 Wattle Street", 
+ "price": "$245,000+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "3.5", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.126226, 
+ -35.2540494 
 ] 
  	 } 
  } 
@@ -1415,16 +1969,25 @@
  "id": "node/247985104", 
  "properties": { 
  	 "@id": "node/247985104", 
- "building": "house", 
- "name": "17A/62 Wattle Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/17a-62-wattle-street-lyneham-canberra/1317201693111", 
+ "propertytype": "Apartment", 
+ "name": "18A/62 Wattle Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "18A/62 Wattle Street", 
+ "price": "$245,000+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "0.0", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.126226, 
+ -35.2540494 
 ] 
  	 } 
  } 
@@ -1434,16 +1997,25 @@
  "id": "node/247985105", 
  "properties": { 
  	 "@id": "node/247985105", 
- "building": "house", 
- "name": "12B/62 Wattle Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/12b-62-wattle-street-lyneham-canberra/1317183205711", 
+ "propertytype": "Apartment", 
+ "name": "72D / 58 Wattle Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "72D / 58 Wattle Street", 
+ "price": "$269,000+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$7,013,000", 
+ "EER": "3.0", 
+ "blocksize": "1.12 Hectares (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1271529, 
+ -35.2550338 
 ] 
  	 } 
  } 
@@ -1453,16 +2025,25 @@
  "id": "node/247985106", 
  "properties": { 
  	 "@id": "node/247985106", 
- "building": "house", 
- "name": "18A/62 Wattle Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/18a-62-wattle-street-lyneham-canberra/1317160413011", 
+ "propertytype": "Apartment", 
+ "name": "70/60 Wattle Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "70/60 Wattle Street", 
+ "price": "$295,000+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$7,013,000", 
+ "EER": "4.0", 
+ "blocksize": "1.12 Hectares (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1267008, 
+ -35.2545549 
 ] 
  	 } 
  } 
@@ -1472,16 +2053,25 @@
  "id": "node/247985107", 
  "properties": { 
  	 "@id": "node/247985107", 
- "building": "house", 
- "name": "8C/62 Wattle Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/8c-62-wattle-street-lyneham-canberra/1317160409011", 
+ "propertytype": "House", 
+ "name": "2/12 Fox Place", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "2/12 Fox Place", 
+ "price": "$310,000+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$558,000", 
+ "EER": "0.0", 
+ "blocksize": "1372 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1295096, 
+ -35.2537031 
 ] 
  	 } 
  } 
@@ -1491,16 +2081,25 @@
  "id": "node/247985108", 
  "properties": { 
  	 "@id": "node/247985108", 
- "building": "house", 
- "name": "72D / 58 Wattle Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/72d-58-wattle-street-lyneham-canberra/1317208705211", 
+ "propertytype": "Apartment", 
+ "name": "32/1 Mouat Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "32/1 Mouat Street", 
+ "price": "$340,000+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "5.0", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1324818, 
+ -35.2482689 
 ] 
  	 } 
  } 
@@ -1510,16 +2109,25 @@
  "id": "node/247985109", 
  "properties": { 
  	 "@id": "node/247985109", 
- "building": "house", 
- "name": "70/60 Wattle Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/70-60-wattle-street-lyneham-canberra/1317212002211", 
+ "propertytype": "Apartment", 
+ "name": "16/15 Fox Place", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "16/15 Fox Place", 
+ "price": "$348,888", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "4.0", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1284085, 
+ -35.2538758 
 ] 
  	 } 
  } 
@@ -1529,16 +2137,25 @@
  "id": "node/247985110", 
  "properties": { 
  	 "@id": "node/247985110", 
- "building": "house", 
- "name": "2/12 Fox Place", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/2-12-fox-place-lyneham-canberra/1317120758911", 
+ "propertytype": "Retirement Village", 
+ "name": "26 Archibald Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "26 Archibald Street", 
+ "price": "$350,000", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "None", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1244882, 
+ -35.2449027 
 ] 
  	 } 
  } 
@@ -1548,16 +2165,25 @@
  "id": "node/247985111", 
  "properties": { 
  	 "@id": "node/247985111", 
- "building": "house", 
- "name": "32/1 Mouat Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/32-1-mouat-street-lyneham-canberra/1317215724311", 
+ "propertytype": "Unit", 
+ "name": "112/26 Oliver Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "112/26 Oliver Street", 
+ "price": "$350,000+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "2.5", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1329888, 
+ -35.2492674 
 ] 
  	 } 
  } 
@@ -1567,16 +2193,25 @@
  "id": "node/247985112", 
  "properties": { 
  	 "@id": "node/247985112", 
- "building": "house", 
- "name": "16/15 Fox Place", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/16-15-fox-place-lyneham-canberra/1317227165611", 
+ "propertytype": "Apartment", 
+ "name": "70/22 Archibald Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "70/22 Archibald Street", 
+ "price": "$355,000", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "2.5", 
+ "blocksize": "1.61 Hectares (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1256172, 
+ -35.2450451 
 ] 
  	 } 
  } 
@@ -1586,16 +2221,25 @@
  "id": "node/247985113", 
  "properties": { 
  	 "@id": "node/247985113", 
- "building": "house", 
- "name": "112/26 Oliver Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/112-26-oliver-street-lyneham-canberra/1317190468311", 
+ "propertytype": "Apartment", 
+ "name": "143 Goodwin Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "143 Goodwin Street", 
+ "price": "$356,000-$369,000", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "6.0", 
+ "blocksize": "609.4 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1310482, 
+ -35.2486637 
 ] 
  	 } 
  } 
@@ -1605,16 +2249,25 @@
  "id": "node/247985114", 
  "properties": { 
  	 "@id": "node/247985114", 
- "building": "house", 
- "name": "26 Archibald Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/26-archibald-street-lyneham-canberra/1317154807811", 
+ "propertytype": "Apartment", 
+ "name": "59/22 Archibald Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "59/22 Archibald Street", 
+ "price": "$359,000", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "5.0", 
+ "blocksize": "1.61 Hectares (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1256172, 
+ -35.2450451 
 ] 
  	 } 
  } 
@@ -1624,16 +2277,25 @@
  "id": "node/247985115", 
  "properties": { 
  	 "@id": "node/247985115", 
- "building": "house", 
- "name": "70/22 Archibald Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/70-22-archibald-street-lyneham-canberra/1317211960011", 
+ "propertytype": "Apartment", 
+ "name": "341/1 Mouat Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "341/1 Mouat Street", 
+ "price": "$359,000+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "6.0", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1324818, 
+ -35.2482689 
 ] 
  	 } 
  } 
@@ -1643,16 +2305,25 @@
  "id": "node/247985116", 
  "properties": { 
  	 "@id": "node/247985116", 
- "building": "house", 
- "name": "143 Goodwin Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/143-goodwin-street-lyneham-canberra/1316917851611", 
+ "propertytype": "Townhouse", 
+ "name": "1 Edwell Place", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "1 Edwell Place", 
+ "price": "$399,900+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$2,757,000", 
+ "EER": "2.5", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1248622, 
+ -35.234299 
 ] 
  	 } 
  } 
@@ -1662,16 +2333,25 @@
  "id": "node/247985117", 
  "properties": { 
  	 "@id": "node/247985117", 
- "building": "house", 
- "name": "59/22 Archibald Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/59-22-archibald-street-lyneham-canberra/1317136990711", 
+ "propertytype": "Townhouse", 
+ "name": "9/124 Deburgh Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "9/124 Deburgh Street", 
+ "price": "$400,000", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$5,229,000", 
+ "EER": "2.0", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1327808, 
+ -35.2531768 
 ] 
  	 } 
  } 
@@ -1681,16 +2361,25 @@
  "id": "node/247985118", 
  "properties": { 
  	 "@id": "node/247985118", 
- "building": "house", 
- "name": "341/1 Mouat Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/341-1-mouat-street-lyneham-canberra/1317223691111", 
+ "propertytype": "Apartment", 
+ "name": "241 Northbourne Avenue", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "241 Northbourne Avenue", 
+ "price": "$420,000+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "6.0", 
+ "blocksize": "1740 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1319976, 
+ -35.258897 
 ] 
  	 } 
  } 
@@ -1700,16 +2389,25 @@
  "id": "node/247985119", 
  "properties": { 
  	 "@id": "node/247985119", 
- "building": "house", 
- "name": "9/124 Deburgh Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/9-124-deburgh-street-lyneham-canberra/1317209708911", 
+ "propertytype": "Apartment", 
+ "name": "607/241 Northbourne Avenue", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "607/241 Northbourne Avenue", 
+ "price": "$420,000+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "6.0", 
+ "blocksize": "1740 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1319976, 
+ -35.258897 
 ] 
  	 } 
  } 
@@ -1719,16 +2417,25 @@
  "id": "node/247985120", 
  "properties": { 
  	 "@id": "node/247985120", 
- "building": "house", 
- "name": "607/241 Northbourne Avenue", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/607-241-northbourne-avenue-lyneham-canberra/1317219937711", 
+ "propertytype": "Apartment", 
+ "name": "54/1 Mouat Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "54/1 Mouat Street", 
+ "price": "$429,900", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "6.0", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1324818, 
+ -35.2482689 
 ] 
  	 } 
  } 
@@ -1738,16 +2445,25 @@
  "id": "node/247985121", 
  "properties": { 
  	 "@id": "node/247985121", 
- "building": "house", 
- "name": "241 Northbourne Avenue", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/241-northbourne-avenue-lyneham-canberra/1317137811011", 
+ "propertytype": "Apartment", 
+ "name": "154/1 Mouat Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "154/1 Mouat Street", 
+ "price": "$430,000+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "6.0", 
+ "blocksize": "1.12 Hectares (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1324818, 
+ -35.2482689 
 ] 
  	 } 
  } 
@@ -1757,16 +2473,25 @@
  "id": "node/247985122", 
  "properties": { 
  	 "@id": "node/247985122", 
- "building": "house", 
- "name": "54/1 Mouat Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/54-1-mouat-street-lyneham-canberra/1317208880011", 
+ "propertytype": "Townhouse", 
+ "name": "30/21 Cossington Smith Crescent", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "30/21 Cossington Smith Crescent", 
+ "price": "$445,000+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "2.5", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1240132, 
+ -35.2419947 
 ] 
  	 } 
  } 
@@ -1776,16 +2501,25 @@
  "id": "node/247985123", 
  "properties": { 
  	 "@id": "node/247985123", 
- "building": "house", 
- "name": "154/1 Mouat Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/154-1-mouat-street-lyneham-canberra/1316960617511", 
+ "propertytype": "House", 
+ "name": "2/18 De Burgh Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "2/18 De Burgh Street", 
+ "price": "$449,000", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "6.0", 
+ "blocksize": "676 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.131493, 
+ -35.2575086 
 ] 
  	 } 
  } 
@@ -1795,16 +2529,25 @@
  "id": "node/247985124", 
  "properties": { 
  	 "@id": "node/247985124", 
- "building": "house", 
- "name": "1 Edwell Place", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/1-edwell-place-lyneham-canberra/1317208770911", 
+ "propertytype": "Townhouse", 
+ "name": "24/2 Archibald Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "24/2 Archibald Street", 
+ "price": "$495,000+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "6.0", 
+ "blocksize": "8658 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1264111, 
+ -35.2451484 
 ] 
  	 } 
  } 
@@ -1814,16 +2557,25 @@
  "id": "node/247985125", 
  "properties": { 
  	 "@id": "node/247985125", 
- "building": "house", 
- "name": "30/21 Cossington Smith Crescent", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/30-21-cossington-smith-crescent-lyneham-canberra/1317221099711", 
+ "propertytype": "Apartment", 
+ "name": "12/18 De Burgh Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "12/18 De Burgh Street", 
+ "price": "$495,000", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "6.0", 
+ "blocksize": "676 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.131493, 
+ -35.2575086 
 ] 
  	 } 
  } 
@@ -1833,16 +2585,25 @@
  "id": "node/247985126", 
  "properties": { 
  	 "@id": "node/247985126", 
- "building": "house", 
- "name": "2/18 De Burgh Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/2-18-de-burgh-street-lyneham-canberra/1317212652211", 
+ "propertytype": "Apartment", 
+ "name": "Fox Place", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "Fox Place", 
+ "price": "$500,000+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$2,045,000", 
+ "EER": "6.0", 
+ "blocksize": "5075.7 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.129035, 
+ -35.2540498 
 ] 
  	 } 
  } 
@@ -1852,16 +2613,25 @@
  "id": "node/247985127", 
  "properties": { 
  	 "@id": "node/247985127", 
- "building": "house", 
- "name": "24/2 Archibald Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/24-2-archibald-street-lyneham-canberra/1317214553011", 
+ "propertytype": "Townhouse", 
+ "name": "10/17 Fernyhough Crescent", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "10/17 Fernyhough Crescent", 
+ "price": "$529,000", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "3.5", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1193215, 
+ -35.2375379 
 ] 
  	 } 
  } 
@@ -1871,16 +2641,25 @@
  "id": "node/247985128", 
  "properties": { 
  	 "@id": "node/247985128", 
- "building": "house", 
- "name": "12/18 De Burgh Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/12-18-de-burgh-street-lyneham-canberra/1317177152711", 
+ "propertytype": "Apartment", 
+ "name": "31/1 Mouat Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "31/1 Mouat Street", 
+ "price": "$549,000", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "5.0", 
+ "blocksize": "1.12 Hectares (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1324818, 
+ -35.2482689 
 ] 
  	 } 
  } 
@@ -1890,16 +2669,25 @@
  "id": "node/247985129", 
  "properties": { 
  	 "@id": "node/247985129", 
- "building": "house", 
- "name": "Fox Place", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/fox-place-lyneham-canberra/1317167592311", 
+ "propertytype": "Apartment", 
+ "name": "5/25 Owen Crescent", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "5/25 Owen Crescent", 
+ "price": "$565,000", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "5.5", 
+ "blocksize": "1845 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1305802, 
+ -35.2562265 
 ] 
  	 } 
  } 
@@ -1909,16 +2697,25 @@
  "id": "node/247985130", 
  "properties": { 
  	 "@id": "node/247985130", 
- "building": "house", 
- "name": "10/17 Fernyhough Crescent", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/10-17-fernyhough-crescent-lyneham-canberra/1317220875211", 
+ "propertytype": "Apartment", 
+ "name": "106/1 Mouat Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "106/1 Mouat Street", 
+ "price": "$580,000+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "4.0", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1324818, 
+ -35.2482689 
 ] 
  	 } 
  } 
@@ -1928,16 +2725,25 @@
  "id": "node/247985131", 
  "properties": { 
  	 "@id": "node/247985131", 
- "building": "house", 
- "name": "31/1 Mouat Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/31-1-mouat-street-lyneham-canberra/1316935624111", 
+ "propertytype": "Apartment", 
+ "name": "2/20 De Burgh Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "2/20 De Burgh Street", 
+ "price": "By Negotiation", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "4.0", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.131532, 
+ -35.2573186 
 ] 
  	 } 
  } 
@@ -1947,16 +2753,25 @@
  "id": "node/247985132", 
  "properties": { 
  	 "@id": "node/247985132", 
- "building": "house", 
- "name": "5/25 Owen Crescent", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/5-25-owen-crescent-lyneham-canberra/1317172257011", 
+ "propertytype": "House", 
+ "name": "85 Archibald Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "85 Archibald Street", 
+ "price": "By Negotiation", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$500,000", 
+ "EER": "1.5", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1182897, 
+ -35.2444525 
 ] 
  	 } 
  } 
@@ -1966,16 +2781,25 @@
  "id": "node/247985133", 
  "properties": { 
  	 "@id": "node/247985133", 
- "building": "house", 
- "name": "106/1 Mouat Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/106-1-mouat-street-lyneham-canberra/1317210082011", 
+ "propertytype": "House", 
+ "name": "95 Brigalow Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "95 Brigalow Street", 
+ "price": "Price by negotiation", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$319,000", 
+ "EER": "2.5", 
+ "blocksize": "490.0 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.1247706, 
+ -35.251091 
 ] 
  	 } 
  } 
@@ -1985,16 +2809,25 @@
  "id": "node/247985134", 
  "properties": { 
  	 "@id": "node/247985134", 
- "building": "house", 
- "name": "2/20 De Burgh Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/2-20-de-burgh-street-lyneham-canberra/1317015360011", 
+ "propertytype": "House", 
+ "name": "38 Eucumbene Drive", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "38 Eucumbene Drive", 
+ "price": "Auction at 11:00 am on Sat, 18 Jun 2016", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$372,000", 
+ "EER": "4.0", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.0282582, 
+ -35.3396893 
 ] 
  	 } 
  } 
@@ -2004,16 +2837,25 @@
  "id": "node/247985135", 
  "properties": { 
  	 "@id": "node/247985135", 
- "building": "house", 
- "name": "85 Archibald Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/85-archibald-street-lyneham-canberra/1317209574011", 
+ "propertytype": "House", 
+ "name": "64 Somerset Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "64 Somerset Street", 
+ "price": "Auction at 2:30 pm on", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$387,000", 
+ "EER": "3.0", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.029307, 
+ -35.3327932 
 ] 
  	 } 
  } 
@@ -2023,16 +2865,25 @@
  "id": "node/247985136", 
  "properties": { 
  	 "@id": "node/247985136", 
- "building": "house", 
- "name": "1 Serpentine Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/1-serpentine-street-duffy-canberra/1317215734911", 
+ "propertytype": "House", 
+ "name": "22/18 Glenmaggie Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "22/18 Glenmaggie Street", 
+ "price": "$230,000+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "None", 
+ "EER": "3.0", 
+ "blocksize": "None", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.0333387, 
+ -35.336079 
 ] 
  	 } 
  } 
@@ -2042,16 +2893,25 @@
  "id": "node/247985137", 
  "properties": { 
  	 "@id": "node/247985137", 
- "building": "house", 
- "name": "38 Eucumbene Drive", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/38-eucumbene-drive-duffy-canberra/1317218732811", 
+ "propertytype": "Townhouse", 
+ "name": "97 Jemalong Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "97 Jemalong Street", 
+ "price": "$465,000", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$2,856,000", 
+ "EER": "None", 
+ "blocksize": "8850.7 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.0313644, 
+ -35.3379021 
 ] 
  	 } 
  } 
@@ -2061,16 +2921,25 @@
  "id": "node/247985138", 
  "properties": { 
  	 "@id": "node/247985138", 
- "building": "house", 
- "name": "3 Avon Place", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/3-avon-place-duffy-canberra/1317215101411", 
+ "propertytype": "House", 
+ "name": "6 Jindabyne Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "6 Jindabyne Street", 
+ "price": "$650,000+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$332,000", 
+ "EER": "1.5", 
+ "blocksize": "841.0 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.0324467, 
+ -35.3334076 
 ] 
  	 } 
  } 
@@ -2080,16 +2949,25 @@
  "id": "node/247985139", 
  "properties": { 
  	 "@id": "node/247985139", 
- "building": "house", 
- "name": "64 Somerset Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/64-somerset-street-duffy-canberra/1317224808411", 
+ "propertytype": "House", 
+ "name": "53 Burdekin Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "53 Burdekin Street", 
+ "price": "$749,000+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$396,000", 
+ "EER": "1.5", 
+ "blocksize": "1328.0 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.0344699, 
+ -35.3417034 
 ] 
  	 } 
  } 
@@ -2099,16 +2977,25 @@
  "id": "node/247985140", 
  "properties": { 
  	 "@id": "node/247985140", 
- "building": "house", 
- "name": "22/18 Glenmaggie Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/22-18-glenmaggie-street-duffy-canberra/1317212611211", 
+ "propertytype": "House", 
+ "name": "1 Serpentine Street", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "1 Serpentine Street", 
+ "price": "$850,000+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$358,000", 
+ "EER": "2.5", 
+ "blocksize": "923.0 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.0389715, 
+ -35.3324144 
 ] 
  	 } 
  } 
@@ -2118,16 +3005,25 @@
  "id": "node/247985141", 
  "properties": { 
  	 "@id": "node/247985141", 
- "building": "house", 
- "name": "Aquilo Apartments - 2 Bedroom Unit", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/aquilo-apartments-2-bedroom-unit-duffy-canberra/1317113215711", 
+ "propertytype": "House", 
+ "name": "3 Avon Place", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "3 Avon Place", 
+ "price": "$850,000", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$404,000", 
+ "EER": "2.5", 
+ "blocksize": "884 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.028695, 
+ -35.3333985 
 ] 
  	 } 
  } 
@@ -2137,130 +3033,25 @@
  "id": "node/247985142", 
  "properties": { 
  	 "@id": "node/247985142", 
- "building": "house", 
- "name": "Aquilo Apartments - 2 Bedroom Unit", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/aquilo-apartments-2-bedroom-unit-duffy-canberra/1317113215811", 
- "@timestamp": "2008-02-18T13:18:14Z" 
- }, 
- "geometry": {
- "type": "Point", 
- "coordinates": [ 
- 0.1, 
- 0.1 
-] 
- 	 } 
- } 
-,
-{ 
- "type": "Feature", 
- "id": "node/247985143", 
- "properties": { 
- 	 "@id": "node/247985143", 
- "building": "house", 
- "name": "Aquilo Apartments - 2 Bedroom Unit", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/aquilo-apartments-2-bedroom-unit-duffy-canberra/1317113213911", 
- "@timestamp": "2008-02-18T13:18:14Z" 
- }, 
- "geometry": {
- "type": "Point", 
- "coordinates": [ 
- 0.1, 
- 0.1 
-] 
- 	 } 
- } 
-,
-{ 
- "type": "Feature", 
- "id": "node/247985144", 
- "properties": { 
- 	 "@id": "node/247985144", 
- "building": "house", 
- "name": "Aquilo Apartments - 2 Bedroom Unit", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/aquilo-apartments-2-bedroom-unit-duffy-canberra/1317113213811", 
- "@timestamp": "2008-02-18T13:18:14Z" 
- }, 
- "geometry": {
- "type": "Point", 
- "coordinates": [ 
- 0.1, 
- 0.1 
-] 
- 	 } 
- } 
-,
-{ 
- "type": "Feature", 
- "id": "node/247985145", 
- "properties": { 
- 	 "@id": "node/247985145", 
- "building": "house", 
- "name": "97 Jemalong Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/97-jemalong-street-duffy-canberra/1317127736611", 
- "@timestamp": "2008-02-18T13:18:14Z" 
- }, 
- "geometry": {
- "type": "Point", 
- "coordinates": [ 
- 0.1, 
- 0.1 
-] 
- 	 } 
- } 
-,
-{ 
- "type": "Feature", 
- "id": "node/247985146", 
- "properties": { 
- 	 "@id": "node/247985146", 
- "building": "house", 
- "name": "6 Jindabyne Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/6-jindabyne-street-duffy-canberra/1317203468411", 
- "@timestamp": "2008-02-18T13:18:14Z" 
- }, 
- "geometry": {
- "type": "Point", 
- "coordinates": [ 
- 0.1, 
- 0.1 
-] 
- 	 } 
- } 
-,
-{ 
- "type": "Feature", 
- "id": "node/247985147", 
- "properties": { 
- 	 "@id": "node/247985147", 
- "building": "house", 
- "name": "53 Burdekin Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/53-burdekin-street-duffy-canberra/1317205617911", 
- "@timestamp": "2008-02-18T13:18:14Z" 
- }, 
- "geometry": {
- "type": "Point", 
- "coordinates": [ 
- 0.1, 
- 0.1 
-] 
- 	 } 
- } 
-,
-{ 
- "type": "Feature", 
- "id": "node/247985148", 
- "properties": { 
- 	 "@id": "node/247985148", 
- "building": "house", 
+ "propertytype": "House", 
  "name": "58 Somerset Street", 
- "url": "http://www.allhomes.com.au/ah/act/sale-residential/58-somerset-street-duffy-canberra/1317133346111", 
+ "url": "http://www.allhomes.com.au/thisisasite", 
+ "address": "58 Somerset Street", 
+ "price": "$1,015,000+", 
+ "bedrooms": "5", 
+ "bathrooms": "2", 
+ "garages": "2", 
+ "UV": "$375,000", 
+ "EER": "5.0", 
+ "blocksize": "702.5 m2 (approx)", 
+ "housesize": "50",
  "@timestamp": "2008-02-18T13:18:14Z" 
  }, 
  "geometry": {
  "type": "Point", 
  "coordinates": [ 
- 0.1, 
- 0.1 
+ 149.0285823, 
+ -35.3328505 
 ] 
  	 } 
  } 

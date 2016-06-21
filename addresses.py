@@ -26,8 +26,7 @@ preamble = """{
 
 postamble = '\n ] \n} '
 
-new_feature = '{{ \n "type": "Feature", \n "id": "node/{0}", \n "properties": {{ \n \t "@id": "node/{0}", \n "building": "house", \n "name": "{1}", \n "url": "{2}", \n "@timestamp": "{3}" \n }}, \n "geometry": {{\n "type": "Point", \n "coordinates": [ \n {4}, \n {5} \n] \n \t }} \n }} '
-
+new_feature = '{{ \n "type": "Feature", \n "id": "node/{0}", \n "properties": {{ \n \t "@id": "node/{0}", \n "propertytype": "{1}", \n "name": "{2}", \n "url": "{3}", \n "address": "{4}", \n "price": "{5}", \n "bedrooms": "{6}", \n "bathrooms": "{7}", \n "garages": "{8}", \n "UV": "{9}", \n "EER": "{10}", \n "blocksize": "{11}", \n "housesize": "{12}",\n "@timestamp": "{13}" \n }}, \n "geometry": {{\n "type": "Point", \n "coordinates": [ \n {14}, \n {15} \n] \n \t }} \n }} '
 output = output + preamble
 
 node_number = 247985030
@@ -43,23 +42,36 @@ for suburb in suburb_list.keys(): #[0:3]:
 
     #print len(address_list),len(links_list)
 
-    for a,name in enumerate(address_list):
+    for a,address in enumerate(address_list):
 
-        print name, suburb
+        print address, suburb
 
-        #latitude,longitude = f.get_location(name + ", " + suburb)
-        latitude,longitude = 0.1,0.1
+        latitude,longitude = f.get_location(address + ", " + suburb + ", Australia")
         if latitude != 0:
             node = str(node_number)
             node_number = node_number  + 1
             timestamp = "2008-02-18T13:18:14Z"
             property_link = links_list[a]
-            f.get_property_details(property_link)
+            price, blocksize, propertytype, UV, EER = f.get_property_details(property_link)
 
-            new_line = new_feature.format(node,name,property_link, timestamp,longitude,latitude)
+            # temp values
+            #propertytype = "house"
+            name = address.replace(", Australia","")
+            url = "http://www.allhomes.com.au/thisisasite"
+            #price = "$588,000"
+            bedrooms = 5
+            bathrooms = 2
+            garages = 2
+            #UV = "$499,000"
+            #EER = "2.3"
+            #blocksize = 788
+            housesize = 50
+            #------------- 
+
+            new_line = new_feature.format(node,propertytype,name,url,address,price,bedrooms,bathrooms,garages,UV,EER,blocksize,housesize,timestamp,longitude,latitude)
 
             # if a == len(address_list)-1:
-            #     output = output + new_line # if the feature is the last don't add a comma
+            #    output = output + new_line # if the feature is the last don't add a comma
             # else:
             output = output + new_line + "\n,\n" 
 
