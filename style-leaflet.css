@@ -1,15 +1,20 @@
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700);
+
 html, body {
   margin: 0; 
   padding: 0;
   height: 100%;
   position: relative;
   z-index: 100;
-  font-family: sans-serif;
 }
 
 @font-face {
   font-family: myFont;
   src: url("roung.otf");
+}
+
+.spacerdiv {
+  height: 30px;
 }
 
 #homely {
@@ -29,30 +34,12 @@ html, body {
 .map {
   margin: 0; 
   padding: 0;
-  /*z-index: 1;*/
   background-color: white;
   height: 100%;
   width: 100%;
   position: absolute;
   left: 0px;
   top: 0px;
-  /*opacity: 0.8;*/
-
-  
-}
-
-.details {
-  margin: 0; 
-  padding: 0;
-  z-index: 100;
-  background-color: white;
-  height: 80px;
-  width: 100%;
-  opacity: 0.7;
-  position: absolute;
-  top: 30px;
-  left: 0px;
-
 }
 
 .header {
@@ -65,10 +52,6 @@ html, body {
   position: absolute;
   top: 0px;
   left: 0px;
-}
-
-.filtertype {
-  /*font-size: 17px;*/
 }
 
 .nav {
@@ -91,12 +74,13 @@ html, body {
     color: white;
     padding: 2px;
     height: 30px;
+    width: 100px;
     font-size: 16px;
     border: none;
     cursor: pointer;
-    display: inline-block;
-    position: absolute;
-    right: 20px;
+    /*display: inline-block;*/
+    /*position: absolute;*/
+    left: 10px;
     opacity: 1;
 }
 
@@ -104,46 +88,13 @@ html, body {
 
 /*side navigation menu*/
 
-.sidenav {
-    display: none;
-    height: 100%;
-    width: 250px;
-    position: fixed;
-    z-index: 1;
-    top: 30px;
-    right: 0;
-    background-color: rgba(255, 255, 255, .8);
-    overflow-x: hidden;
-    padding-top: 60px;
-    font-size: 8px;
-}
 
-.sidenav a {
-    /*padding: 8px 8px 8px 32px;*/
-    text-decoration: none;
 
-    color: #000;
-    display: block;
-    transition: 0.3s
-}
-
-.sidenav a:hover, .offcanvas a:focus{
-    color: #f1f1f1;
-}
-
-.closebtn {
-    position: absolute;
-    top: 0;
-    right: 15px;
-    font-size: 36px !important;
-    margin-left: 30px;
-}
-
-#EERslider {
+.slider {
   margin: 5px;
 }
 
-#EERslider label {
+.slider label {
   position: absolute;
   width: 20px;
   margin-top: 20px;
@@ -151,12 +102,30 @@ html, body {
   text-align: center;
 }
 
-#EERslider .ui-slider-range { 
-  background: #f1f1f1;
+/*#EERslider .ui-slider-range { 
+  background: rgb(216,216,216) ;
 }
 #EERslider .ui-slider-handle { 
   border-color: #204e9b;
   background: #204e9b;
+  outline: 0;
+}*/
+
+
+
+.slidervalue {
+  border:0; 
+  background-color: rgba(255,255,255,0);
+}
+
+#TTaddress {
+  width: 210px;
+  text-align: right;
+  color: rgba(0, 0, 0, .2);
+  border-color: rgba(0, 0, 0, .2);
+  border-style: solid;
+  border-width: 2px;
+  /*box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);;*/
 }
 
 
@@ -219,5 +188,104 @@ html, body {
     background-color: #fefefe;
 }
 
-/*------*/
+/*---CHECKBOXES---*/
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  position: absolute;
+  left: -9999px;
+}
+
+.side-label {
+  font: 1.3em/1.1 'Noto Sans', sans-serif;
+  display: block;
+  position: relative;
+  margin: 10px 0;
+  padding-left: 23px;
+  cursor: pointer;
+}
+
+.side-label::before, .side-label::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.side-label::before {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #000;  
+}
+
+input:focus + .side-label::before {
+  border-color: #204e9b;
+}
+
+/*block inside checkbox*/
+.side-label::after {
+  display: none;
+  width: 8px;
+  height: 8px;
+  margin: 4px;
+  background-color: #204e9b;
+}
+
+
+input:checked + .side-label::after {
+  display: block;
+}
+
+/*-------------------*/
+
+.sidenav {
+    /*display: none;  don't show until requested */
+    height: calc(100% - 30px); /* calculate height (100% - height of header) */
+    width: 250px;
+    /*position: fixed;*/
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+    right: 0;
+    background-color: rgba(255, 255, 255, .8);
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-top: 60px;
+    font: 0.6em/1.2 'Noto Sans', sans-serif;
+    margin: 0 auto;
+    padding: 10px 20px 40px;
+}
+
+.sidenav a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.closebtn {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  font-size: 36px !important;
+  margin-left: 30px;
+}
+
+.filtertype {
+  font: 1.4em/1.1 'Noto Sans', sans-serif;
+  font-weight: bold;
+}
+
+.subfiltertype {
+  font: 1.1em/1.1 'Noto Sans', sans-serif;
+  font-weight: bold;
+}

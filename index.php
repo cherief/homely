@@ -2,10 +2,11 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
   <head>
-    <title>// homely \\</title>
+    <title>homely</title>
     <meta charset="utf-8">
     <!-- JQuery -->
-    <script src="jquery.js"></script>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="script.js"></script>
    
     <!-- Leaflet -->
     <script>L_PREFER_CANVAS = true;</script>
@@ -49,10 +50,10 @@
 
 
 
-        <?php 
-          $api = 'HELLO';
-          echo '<span>hello</span>'; 
-        ?>
+<!--         <?php 
+          $api = file_get_contents("api_server");
+          echo '<span>'.$api.'</span>'; 
+        ?> -->
 
 <!--           <span class="dropdown">
             <button class="dropbtn">Export</button>
@@ -78,7 +79,7 @@
 
             <p>
             <span class="filtertype">Listing price </span><br>
-            <input type="text" id="LPvalue" readonly><br>
+            <input type="text" id="LPvalue" class="slidervalue" readonly><br>
             <div id="LPslider" class="slider"></div>
             <input id="auctionCB" type="checkbox" checked>
             <label for="auctionCB" class="side-label">Include auctions</label>
@@ -111,17 +112,43 @@
             <input id="bath3CB" type="checkbox" checked>
             <label for="bath3CB" class="side-label">&ge; 3</label>
 
+            <span class="filtertype">Garages</span><br>
+            <input id="garage1CB" type="checkbox" checked>
+            <label for="garage1CB" class="side-label">1</label>
+            <input id="garage2CB" type="checkbox" checked>
+            <label for="garage2CB" class="side-label">&ge; 2</label>
+
+
+            <!-- Travel time -->
+            <div class="filtertype">Travel Time </div>
+            <input type="text" id="TTvalue" class="slidervalue" readonly><br>
+            <div id="TTslider" class="slider"></div>
+
+            <!-- <div class="subfiltertype">Get address </div> -->
+            <input type="text" id="TTaddress" value="Get address"><br>
+
+
+            <p>
+            <!-- Block size -->
+            <span class="filtertype">Block Size </span><br>
+            <input type="text" id="BSvalue" class="slidervalue" readonly><br>
+            <div id="BSslider" class="slider"></div>
+
             <p>
             <span class="filtertype">UV </span><br>
-            <input type="text" id="UVvalue" readonly><br>
+            <input type="text" id="UVvalue" class="slidervalue" readonly><br>
             <div id="UVslider" class="slider"></div>
 
             <p>
             <span class="filtertype">EER </span><br>
-            <input type="text" id="EERvalue" readonly><br>
+            <input type="text" id="EERvalue" class="slidervalue" readonly><br>
             <div id="EERslider" class="slider"></div>
 
-            <p>
+
+
+            <div class="spacerdiv"> </div>
+
+
 
         </div>
 
@@ -168,15 +195,33 @@
     });
     $( "#LPvalue" ).val("$" + comma($( "#LPslider" ).slider( "values", 0 )) +
       " - $" + comma($( "#LPslider" ).slider( "values", 1 )));
+// ----- Travel time ------
+    $( "#TTslider" ).slider({
+      range: false,
+      max: 60,
+      step: 5,
+      values: [60],
+      slide: function( event, ui ) {
+        $( "#TTvalue" ).val("Less than " + ui.values[0] + " minutes");
+      }
+    });
+    $( "#TTvalue" ).val("Less than " + comma($( "#TTslider" ).slider( "values",0)) +
+      " minutes" ); 
+// ----- Block size ------
+    $( "#BSslider" ).slider({
+      range: false,
+      max: 1200,
+      step: 100,
+      values: [0],
+      slide: function( event, ui ) {
+        $( "#BSvalue" ).val("Greater than " + ui.values[0] + " sqm");
+      }
+    });
+    $( "#BSvalue" ).val("Greater than " + comma($( "#BSslider" ).slider( "values",0)) +
+      " sqm" ); 
   });
 
-function openNav() {
-    document.getElementById("mySidenav").style.display = "block";
-}
 
-function closeNav() {
-    document.getElementById("mySidenav").style.display = "none";
-}
 
 var map = L.map('map',{zoomControl:false}); // what does this do?
 
@@ -208,33 +253,55 @@ var houseIconRed = L.icon({
     popupAnchor:  [1, -35] // point from which the popup should open relative to the iconAnchor
 });
 
-var busstopIcon = L.icon({
-    iconUrl: 'busstop-icon.png',
+var schoolIcon = L.icon({
+    iconUrl: 'school-icon.png',
     iconSize:     [20, 20], // size of the icon
     iconAnchor:   [10, 20], // point of the icon which will correspond to marker's location
     popupAnchor:  [1, -35] // point from which the popup should open relative to the iconAnchor
 });
 
-function propertyPopup(feature, layer) {
-  layer.bindPopup("<b>" + feature.properties.name + "</b><br>" + feature.properties.price);
-}
- 
-function busstopPopup(feature, layer) {
-  layer.bindPopup("<b>" + feature.properties.name + "</b>");
-}
+
 
 var addressLayer = $.getJSON("addresses.geojson");
 
 addressLayer.then(function(data) {
 
-        
+        //var allAddresses = L.geoJson(data);
+
+        // var house = L.geoJson(data, {
+        //     filter: function(feature, layer) {
+        //         return feature.properties.propertytype == "House";
+        //     },
+        //     pointToLayer: function(feature, latlng) {
+        //         return L.marker(latlng, {
+        //             icon: houseIconOrange
+        //         })
+        //     },
+        //     onEachFeature: propertyPopup
+        // });
+
+        // var others = L.geoJson(data, {
+        //     filter: function(feature, layer) {
+        //         return feature.properties.propertytype != "House";
+        //     },
+        //     pointToLayer: function(feature, latlng) {
+        //         return L.marker(latlng, {
+        //             icon: houseIconRed
+        //         })
+        //     },
+        //     onEachFeature: propertyPopup
+        // });
+       
+        // map.fitBounds(allAddresses.getBounds(), {
+        //     padding: [50, 50]
+        // });
+
+        // house.addTo(map)
+        // others.addTo(map)
+
         var allAddresses = L.geoJson(data);
 
-        // THIS IS NEW
-        var house = L.geoJson(data, {
-            filter: function(feature, layer) {
-                return feature.properties.propertytype == "House";
-            },
+        var addresses = L.geoJson(data, {
             pointToLayer: function(feature, latlng) {
                 return L.marker(latlng, {
                     icon: houseIconOrange
@@ -243,158 +310,71 @@ addressLayer.then(function(data) {
             onEachFeature: propertyPopup
         });
 
-
-        var others = L.geoJson(data, {
-            filter: function(feature, layer) {
-                return feature.properties.propertytype != "House";
-            },
-            pointToLayer: function(feature, latlng) {
-                return L.marker(latlng, {
-                    icon: houseIconRed
-                })
-            },
-            onEachFeature: propertyPopup
-        });
-       
         map.fitBounds(allAddresses.getBounds(), {
             padding: [50, 50]
         });
 
-        // THIS IS NEW
-        house.addTo(map)
-        others.addTo(map)
+        // add to map
+        addresses.addTo(map)
+        
     });
 
-// var busstopLayer = $.getJSON("data/busstops.geojson");
-// console.log(busstopLayer);
+// var schoolLayer = $.getJSON("data/schools.geojson");
+// console.log(schoolLayer);
 
-// busstopLayer.then(function(data) {
-//         var allBusstops = L.geoJson(data);
+// schoolLayer.then(function(data) {
+//         var allschools = L.geoJson(data);
 
 //         // THIS IS NEW
-//         var busstops = L.geoJson(data, {
+//         var schools = L.geoJson(data, {
 //             filter: function(feature, layer) {
 //                 return feature.properties.amenity == "bus stop";
 //             },
 //             pointToLayer: function(feature, latlng) {
 //                 return L.marker(latlng, {
-//                     icon: busstopIcon
+//                     icon: schoolIcon
 //                 })
 //             }//,
-//             //onEachFeature: busstopPopup
+//             //onEachFeature: schoolPopup
 //         });
 
 
        
-//         map.fitBounds(allBusstops.getBounds(), {
+//         map.fitBounds(allschools.getBounds(), {
 //             padding: [50, 50]
 //         });
 
 //         // THIS IS NEW
 
-//         // busstops.addTo(map);
+//         // schools.addTo(map);
 
 //     });
 
-// var busstopPoints = L.geoJson.ajax("data/busstops.geojson",{
+// var schoolPoints = L.geoJson.ajax("data/schools.geojson",{
 //               pointToLayer: function(feature, latlng) {
 //                 return L.marker(latlng, {
-//                     icon: busstopIcon
+//                     icon: schoolIcon
 //                 })
 //               },
-//               onEachFeature: busstopPopup
-// }); //.addTo(map); // Adding the entire geoJson layer to the map.
+//               onEachFeature: schoolPopup
+// }).addTo(map); // Adding the entire geoJson layer to the map.
 
 
 // map.on("zoomend", function () {
 //     if (map.getZoom() >= 15) {
-//         map.addLayer(busstopPoints);
+//         map.addLayer(schoolPoints);
 //     } else {
 //         // Removing entire geoJson layer that contains the points.
-//         map.removeLayer(busstopPoints);
+//         map.removeLayer(schoolPoints);
 //     }
 // });
 
-function updateLayers() {
-    //console.log(document.getElementById('houseCB').checked);
+foo = 12;
 
-    map.eachLayer(function (layer) {
-      map.removeLayer(layer);
-    });
+if ([1,3,12].indexOf(foo) > -1) {
 
+  console.log("yep");
 
-    addressLayer.then(function(data) {
-
-        
-        var allAddresses = L.geoJson(data);
-
-        // THIS IS NEW
-        
-          var house = L.geoJson(data, {
-              filter: function(feature, layer) {
-                  return feature.properties.propertytype == "House";
-              },
-              pointToLayer: function(feature, latlng) {
-                  return L.marker(latlng, {
-                      icon: houseIconOrange
-                  })
-              },
-              onEachFeature: propertyPopup
-          });
-
-
-
-
-        var apartment = L.geoJson(data, {
-            filter: function(feature, layer) {
-                return feature.properties.propertytype == "Apartment";
-            },
-            pointToLayer: function(feature, latlng) {
-                return L.marker(latlng, {
-                    icon: houseIconRed
-                })
-            },
-            onEachFeature: propertyPopup
-        });
-
-        var townhouse = L.geoJson(data, {
-            filter: function(feature, layer) {
-                return feature.properties.propertytype == "Townhouse";
-            },
-            pointToLayer: function(feature, latlng) {
-                return L.marker(latlng, {
-                    icon: houseIconRed
-                })
-            },
-            onEachFeature: propertyPopup
-        });
-       
-        map.fitBounds(allAddresses.getBounds(), {
-            padding: [50, 50]
-        });
-
-
-        if (document.getElementById('houseCB').checked == true) {
-          house.addTo(map)
-        }
-        if (document.getElementById('apartmentCB').checked == true) {
-          apartment.addTo(map)
-        }
-        if (document.getElementById('townhouseCB').checked == true) {
-          townhouse.addTo(map)
-        }
-        //map.addLayer(osm);
-    });
-
-}
-
-
-// OTHER FUNCTIONS
-
-function comma(x) {
-    var parts = x.toString().split(".");
-    parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-    return parts.join(".");
 }
 
 </script>

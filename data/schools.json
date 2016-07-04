@@ -1,0 +1,625 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "q8rt-q8cy",
+      "name" : "ACT School Locations",
+      "attribution" : "Education and Training Directorate",
+      "averageRating" : 80,
+      "category" : "Education",
+      "createdAt" : 1345180895,
+      "description" : "Addresses of ACT Government Schools",
+      "displayType" : "table",
+      "downloadCount" : 357,
+      "indexUpdatedAt" : 1400693167,
+      "licenseId" : "CC_30_BY_AUS",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 988713,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1345181789,
+      "publicationGroup" : 405353,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1345181759,
+      "rowsUpdatedBy" : "pqik-r3g6",
+      "tableId" : 405357,
+      "totalTimesRated" : 1,
+      "viewCount" : 5979,
+      "viewLastModified" : 1349400280,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : 15876689,
+        "name" : "School Name",
+        "dataTypeName" : "text",
+        "fieldName" : "school_name",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 3835744,
+        "width" : 232,
+        "cachedContents" : {
+          "non_null" : 139,
+          "largest" : "Yarralumla Primary School",
+          "null" : 0,
+          "top" : [ {
+            "item" : "St Mary Mackillop College",
+            "count" : 20
+          }, {
+            "item" : "St Vincent's Primary School",
+            "count" : 19
+          }, {
+            "item" : "Stromlo High School",
+            "count" : 18
+          }, {
+            "item" : "Sts Peter and Paul's Primary School",
+            "count" : 17
+          }, {
+            "item" : "Taylor Primary School",
+            "count" : 16
+          }, {
+            "item" : "Telopea Park School",
+            "count" : 15
+          }, {
+            "item" : "Theodore Primary School",
+            "count" : 14
+          }, {
+            "item" : "Torrens Primary School",
+            "count" : 13
+          }, {
+            "item" : "Trinity Christian School",
+            "count" : 12
+          }, {
+            "item" : "Turner School",
+            "count" : 11
+          }, {
+            "item" : "Wanniassa Hills Primary School",
+            "count" : 10
+          }, {
+            "item" : "Wanniassa School",
+            "count" : 9
+          }, {
+            "item" : "Weetangera Primary School",
+            "count" : 8
+          }, {
+            "item" : "Woden School, The ",
+            "count" : 7
+          }, {
+            "item" : "Yarralumla Primary School",
+            "count" : 6
+          } ],
+          "smallest" : "Ainslie School"
+        },
+        "format" : { }
+      }, {
+        "id" : 15876690,
+        "name" : "Street Address",
+        "dataTypeName" : "text",
+        "fieldName" : "street_address",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 3835745,
+        "width" : 268,
+        "cachedContents" : {
+          "non_null" : 139,
+          "largest" : "Woodcock Drv",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Boddington Crescent",
+            "count" : 20
+          }, {
+            "item" : "Bindel Street",
+            "count" : 19
+          }, {
+            "item" : "Badimara Street",
+            "count" : 18
+          }, {
+            "item" : "Wisdom Street",
+            "count" : 17
+          }, {
+            "item" : "Marconi Crescent",
+            "count" : 16
+          }, {
+            "item" : "New South Wales Crescent",
+            "count" : 15
+          }, {
+            "item" : "Lawrence-Wackett Crescent",
+            "count" : 14
+          }, {
+            "item" : "Ritchie Street",
+            "count" : 13
+          }, {
+            "item" : "34 McBryde Crs",
+            "count" : 12
+          }, {
+            "item" : "Condamine Street",
+            "count" : 11
+          }, {
+            "item" : "Langdon Avenue",
+            "count" : 10
+          }, {
+            "item" : "Sternberg Crescent",
+            "count" : 9
+          }, {
+            "item" : "Wheeler Crescent",
+            "count" : 8
+          }, {
+            "item" : "Southwell Street",
+            "count" : 7
+          }, {
+            "item" : "Denison Street",
+            "count" : 6
+          }, {
+            "item" : "Loftus Street",
+            "count" : 5
+          } ],
+          "smallest" : "114 Maitland Street"
+        },
+        "format" : { }
+      }, {
+        "id" : 15876691,
+        "name" : "Suburb",
+        "dataTypeName" : "text",
+        "fieldName" : "suburb",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 3835746,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 139,
+          "largest" : "Yarralumla",
+          "null" : 0,
+          "top" : [ {
+            "item" : "RED HILL",
+            "count" : 20
+          }, {
+            "item" : "Kaleen",
+            "count" : 19
+          }, {
+            "item" : "Melba",
+            "count" : 18
+          }, {
+            "item" : "Narrabundah",
+            "count" : 17
+          }, {
+            "item" : "WANNIASSA",
+            "count" : 16
+          }, {
+            "item" : "GRIFFITH",
+            "count" : 15
+          }, {
+            "item" : "FLOREY",
+            "count" : 14
+          }, {
+            "item" : "Torrens",
+            "count" : 13
+          }, {
+            "item" : "Turner",
+            "count" : 12
+          }, {
+            "item" : "Wanniassa",
+            "count" : 11
+          }, {
+            "item" : "Weetangera",
+            "count" : 10
+          }, {
+            "item" : "Deakin",
+            "count" : 9
+          }, {
+            "item" : "Yarralumla",
+            "count" : 8
+          } ],
+          "smallest" : "Ainslie"
+        },
+        "format" : { }
+      }, {
+        "id" : 15876692,
+        "name" : "Sector",
+        "dataTypeName" : "text",
+        "fieldName" : "sector",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 3835747,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 139,
+          "largest" : "Non-Government",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Government",
+            "count" : 20
+          }, {
+            "item" : "Non-Government",
+            "count" : 19
+          } ],
+          "smallest" : "Government"
+        },
+        "format" : { }
+      }, {
+        "id" : 15876693,
+        "name" : "Location 1",
+        "dataTypeName" : "location",
+        "fieldName" : "location_1",
+        "position" : 6,
+        "renderTypeName" : "location",
+        "tableColumnId" : 3835748,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 139,
+          "largest" : {
+            "latitude" : "-35.306948",
+            "longitude" : "149.103234"
+          },
+          "null" : 0,
+          "top" : [ {
+            "item" : {
+              "latitude" : "-35.382449",
+              "longitude" : "149.051977"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "latitude" : "-35.254993",
+              "longitude" : "149.076661"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "latitude" : "-35.355429",
+              "longitude" : "149.05436"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "latitude" : "-35.339376",
+              "longitude" : "149.092732"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "latitude" : "-35.378318",
+              "longitude" : "149.064261"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "latitude" : "-35.313804",
+              "longitude" : "149.134385"
+            },
+            "count" : 15
+          }, {
+            "item" : {
+              "latitude" : "-35.447667",
+              "longitude" : "149.12396"
+            },
+            "count" : 14
+          }, {
+            "item" : {
+              "latitude" : "-35.370046",
+              "longitude" : "149.090949"
+            },
+            "count" : 13
+          }, {
+            "item" : {
+              "latitude" : "-35.408265",
+              "longitude" : "149.086051"
+            },
+            "count" : 12
+          }, {
+            "item" : {
+              "latitude" : "-35.264995",
+              "longitude" : "149.126081"
+            },
+            "count" : 11
+          }, {
+            "item" : {
+              "latitude" : "-35.393069",
+              "longitude" : "149.095898"
+            },
+            "count" : 10
+          }, {
+            "item" : {
+              "latitude" : "-35.398201",
+              "longitude" : "149.086012"
+            },
+            "count" : 9
+          }, {
+            "item" : {
+              "latitude" : "-35.394992",
+              "longitude" : "149.086363"
+            },
+            "count" : 8
+          }, {
+            "item" : {
+              "latitude" : "-35.251826",
+              "longitude" : "149.047137"
+            },
+            "count" : 7
+          }, {
+            "item" : {
+              "latitude" : "-35.326599",
+              "longitude" : "149.092398"
+            },
+            "count" : 6
+          }, {
+            "item" : {
+              "latitude" : "-35.306948",
+              "longitude" : "149.103234"
+            },
+            "count" : 5
+          } ],
+          "smallest" : {
+            "latitude" : "-35.273729",
+            "longitude" : "149.139632"
+          }
+        },
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Creative Commons Attribution 3.0 Australia",
+        "logoUrl" : "images/licenses/cc30by.png",
+        "termsLink" : "http://creativecommons.org/licenses/by/3.0/au/deed.en"
+      },
+      "metadata" : {
+        "custom_fields" : {
+          "Related Data" : {
+            "Data Dictionary" : "",
+            "Related Data Set" : ""
+          },
+          "Contributing Agency" : {
+            "Contact Email" : "kerrya.webb@act.gov.au",
+            "Program Website" : "",
+            "Agency Program" : "",
+            "Agency Name" : "Education and Training Directorate"
+          },
+          "Data Set Coverage" : {
+            "Granularity" : "",
+            "Geospatial Coverage" : "Australian Capital Territory",
+            "Temporal Coverage" : "Current",
+            "Update Regularity" : ""
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "rowIdentifier" : "0",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "pqik-r3g6",
+        "displayName" : "Kerry Webb",
+        "profileImageUrlLarge" : "/api/users/pqik-r3g6/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/pqik-r3g6/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/pqik-r3g6/profile_images/TINY",
+        "screenName" : "Kerry Webb"
+      },
+      "query" : { },
+      "ratings" : {
+        "rating" : 80
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "pqik-r3g6",
+        "displayName" : "Kerry Webb",
+        "profileImageUrlLarge" : "/api/users/pqik-r3g6/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/pqik-r3g6/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/pqik-r3g6/profile_images/TINY",
+        "screenName" : "Kerry Webb"
+      },
+      "tags" : [ "schools", "addresses" ],
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 1, "54BB1FD9-F83B-4F7A-B272-D2B75FE3D3E3", 1, 1345180897, "545264", 1345180897, "545264", "{\n}", "Ainslie School", "Donaldson Street", "Braddon", "Government", [ null, "-35.273729", "149.139632", null, false ] ]
+, [ 2, "06C9BB66-E200-400F-9F12-2C858763B433", 2, 1345180897, "545264", 1345180897, "545264", "{\n}", "Alfred Deakin High School", "Denison Street", "Deakin", "Government", [ null, "-35.323849", "149.094282", null, false ] ]
+, [ 3, "44E465DC-A1D9-4969-B98D-2411B706EBA5", 3, 1345180897, "545264", 1345180897, "545264", "{\n}", "Amaroo School", "Katherine Avenue", "Amaroo", "Government", [ null, "-35.16392", "149.125588", null, false ] ]
+, [ 4, "27A5CBAA-A835-4A5F-96FC-C6098971D0D8", 4, 1345180897, "545264", 1345180897, "545264", "{\n}", "Aranda Primary School", "Banambila Crescent", "Aranda", "Government", [ null, "-35.255999", "149.079914", null, false ] ]
+, [ 5, "E4BF53D4-F140-4E83-8BA5-ECBF96FA80BF", 5, 1345180897, "545264", 1345180897, "545264", "{\n}", "Arawang Primary School", "Nemarang Crescent", "Waramanga", "Government", [ null, "-35.355017", "149.059719", null, false ] ]
+, [ 6, "E39C0231-A69E-47AE-882B-2BA7E1C44EB0", 6, 1345180897, "545264", 1345180897, "545264", "{\n}", "Belconnen High School", "Murranji Street", "Hawker", "Government", [ null, "-35.246957", "149.039298", null, false ] ]
+, [ 7, "33EC2FD7-F24A-442A-9415-83CE386054DC", 7, 1345180897, "545264", 1345180897, "545264", "{\n}", "Birrigai Outdoor School", "Tidbinbilla Road", "THARWA", "Government", [ null, "-35.45", "148.96", null, false ] ]
+, [ 8, "39264E77-BF53-4D99-80B3-A1411F908401", 8, 1345180897, "545264", 1345180897, "545264", "{\n}", "Black Mountain School", "Dryandra Street", "O'Connor", "Government", [ null, "-35.265224", "149.112366", null, false ] ]
+, [ 9, "D10DC121-9BCF-497C-8FEF-E3DEC70982B4", 9, 1345180897, "545264", 1345180897, "545264", "{\n}", "Blue Gum Community School", "114 Maitland Street", "HACKETT", "Non-Government", [ null, "-35.246571", "149.15938", null, false ] ]
+, [ 10, "D985F1A9-2B85-488A-A289-96E949DF8300", 10, 1345180897, "545264", 1345180897, "545264", "{\n}", "Bonython Primary School", "Hurtle Avenue", "Bonython", "Government", [ null, "-35.431846", "149.082604", null, false ] ]
+, [ 11, "03C3A4E0-E218-4A16-B487-A97E943C0624", 11, 1345180897, "545264", 1345180897, "545264", "{\n}", "Brindabella Christian College", "136 Brigalow Street", "LYNEHAM", "Non-Government", [ null, "-35.248056", "149.12805", null, false ] ]
+, [ 12, "9B1588B8-49AC-4A11-80CA-600218AB37BD", 12, 1345180897, "545264", 1345180897, "545264", "{\n}", "Burgmann Anglican School", "Cnr The Valley Avenue and Gungahlin Drive", "GUNGAHLIN", "Non-Government", [ null, "-35.188529", "149.123672", null, false ] ]
+, [ 14, "638326A7-9DAC-4BFB-980A-6B78DC7311A3", 14, 1345180897, "545264", 1345180897, "545264", "{\n}", "Calwell High School", "Casey Crescent", "Calwell", "Government", [ null, "-35.441052", "149.117635", null, false ] ]
+, [ 15, "51EED2DB-9790-4FE8-B194-BA07B9B3C732", 15, 1345180897, "545264", 1345180897, "545264", "{\n}", "Calwell Primary School", "Downard Street", "Calwell", "Government", [ null, "-35.438412", "149.109254", null, false ] ]
+, [ 16, "573E95F5-1D69-4873-810F-FCCA791903B7", 16, 1345180897, "545264", 1345180897, "545264", "{\n}", "Campbell High School", "Treloar Crescent", "Campbell", "Government", [ null, "-35.278101", "149.147123", null, false ] ]
+, [ 17, "FBA8B6B3-5FAE-4D2B-87C7-E117200F28C0", 17, 1345180897, "545264", 1345180897, "545264", "{\n}", "Campbell Primary School", "Chauvel Street", "Campbell", "Government", [ null, "-35.290271", "149.156099", null, false ] ]
+, [ 18, "9B3EE5DB-59F0-4EB9-8C88-186AB07055F5", 18, 1345180897, "545264", 1345180897, "545264", "{\n}", "Canberra Christian School", "Ainsworth Street", "MAWSON", "Non-Government", [ null, "-35.356475", "149.097963", null, false ] ]
+, [ 19, "14CB6132-42DD-4BBE-A680-9DACFC726967", 19, 1345180897, "545264", 1345180897, "545264", "{\n}", "Canberra College, The ", "Launceston Street", "Phillip", "Government", [ null, "-35.34036", "149.088321", null, false ] ]
+, [ 20, "211D2C1B-2DA7-4968-AE89-265DBD3A19A8", 20, 1345180897, "545264", 1345180897, "545264", "{\n}", "Canberra College, The - Weston", "Fremantle Drive", "Stirling", "Government", [ null, "-35.3404", "149.0883", null, false ] ]
+, [ 21, "C8335778-72B2-4947-8C1D-F1EA4EC0D255", 21, 1345180897, "545264", 1345180897, "545264", "{\n}", "Canberra Girls' Grammar School", "Melbourne Avenue", "DEAKIN", "Non-Government", [ null, "-35.31699", "149.115115", null, false ] ]
+, [ 22, "081BB2AC-22B5-458B-9C7B-3EB756D6F5C1", 22, 1345180897, "545264", 1345180897, "545264", "{\n}", "Canberra Girls' Grammar Junior School", "Grey Street", "DEAKIN", "Non-Government", [ null, "-35.312126", "149.110759", null, false ] ]
+, [ 23, "FCA3F999-A212-4910-A6A8-D5C6661CB834", 23, 1345180897, "545264", 1345180897, "545264", "{\n}", "Canberra Grammar School", "Monaro Crescent", "RED HILL", "Non-Government", [ null, "-35.330919", "149.124674", null, false ] ]
+, [ 24, "6F8E8F09-BD3A-4F98-9FCD-63AC91229C17", 24, 1345180897, "545264", 1345180897, "545264", "{\n}", "Canberra Grammar School (Northside Infants)", "Blamey Crescent", "CAMPBELL", "Non-Government", [ null, "-35.285316", "149.147091", null, false ] ]
+, [ 25, "002F6737-5F9C-4478-91DE-117E4B7EE676", 25, 1345180897, "545264", 1345180897, "545264", "{\n}", "Canberra Grammar Junior School", "Alexander Street", "RED HILL", "Non-Government", [ null, "-35.332344", "149.124691", null, false ] ]
+, [ 26, "EEA88249-1BD6-4633-B26C-2A5D53B372D3", 26, 1345180897, "545264", 1345180897, "545264", "{\n}", "Canberra High School", "Bindubi Street", "Macquarie", "Government", [ null, "-35.251302", "149.074517", null, false ] ]
+, [ 27, "37B0757E-4DEC-4B29-9547-C1E01DF98F73", 27, 1345180897, "545264", 1345180897, "545264", "{\n}", "Canberra Montessori School", "35 Mulley Street", "HOLDER", "Non-Government", [ null, "-35.332247", "149.051068", null, false ] ]
+, [ 28, "347463F9-D6ED-4A7C-A3AA-9B407F449A03", 28, 1345180897, "545264", 1345180897, "545264", "{\n}", "Canberra Montessori School", "28 Astrolabe Street", "RED HILL", "Non-Government", [ null, "-35.339388", "149.133153", null, false ] ]
+, [ 29, "6008B85F-0EF0-4DC2-896B-86F75628DC9F", 29, 1345180897, "545264", 1345180897, "545264", "{\n}", "Caroline Chisholm School", "Hambridge Crescent", "Chisholm", "Government", [ null, "-35.418155", "149.122047", null, false ] ]
+, [ 30, "3579C49E-2704-40C1-BE75-F9AC9AF0A0F6", 30, 1345180897, "545264", 1345180897, "545264", "{\n}", "Chapman Primary School", "Perry Drive", "Chapman", "Government", [ null, "-35.356878", "149.043079", null, false ] ]
+, [ 31, "382ED1A3-B21C-4928-867A-14C24D56839B", 31, 1345180897, "545264", 1345180897, "545264", "{\n}", "Charles Conder Primary School", "Tom Roberts Avenue", "Conder", "Government", [ null, "-35.464883", "149.098449", null, false ] ]
+, [ 32, "64CB19AD-F51E-46A8-B1C0-3113A21AABBC", 32, 1345180897, "545264", 1345180897, "545264", "{\n}", "Charnwood-Dunlop School", "Bettington Circuit", "Charnwood", "Government", [ null, "-35.198682", "149.036203", null, false ] ]
+, [ 33, "6C4EE481-63F9-41AA-A1B8-FD48A76C6FD6", 33, 1345180897, "545264", 1345180897, "545264", "{\n}", "Covenant College", "Woodcock Drv", "GORDON", "Non-Government", [ null, "-35.439222", "149.090709", null, false ] ]
+, [ 34, "8C9D092D-9F09-4996-9921-ACFC9132190A", 34, 1345180897, "545264", 1345180897, "545264", "{\n}", "Cranleigh School", "Starke Street", "Holt", "Government", [ null, "-35.224913", "149.02911", null, false ] ]
+, [ 35, "9E44BA6C-BA41-48E3-A61E-A42151005A3D", 35, 1345180897, "545264", 1345180897, "545264", "{\n}", "Curtin Primary School", "Theodore Street", "Curtin", "Government", [ null, "-35.331662", "149.079926", null, false ] ]
+, [ 36, "B81D4F8C-AE1E-473B-9678-AA81840FE662", 36, 1345180897, "545264", 1345180897, "545264", "{\n}", "Daramalan College", "Cowper Street", "DICKSON", "Non-Government", [ null, "-35.253518", "149.138695", null, false ] ]
+, [ 37, "EC663CFF-4B0D-4B7D-804B-FC073718D9B4", 37, 1345180897, "545264", 1345180897, "545264", "{\n}", "Dickson College", "Phillip Avenue", "Dickson", "Government", [ null, "-35.248452", "149.154143", null, false ] ]
+, [ 38, "3ECD106A-03A3-45D0-AC9A-FA891A42A83A", 38, 1345180897, "545264", 1345180897, "545264", "{\n}", "Duffy Primary School", "Burrinjuck Crescent", "Duffy", "Government", [ null, "-35.334219", "149.033656", null, false ] ]
+, [ 39, "DA02D61E-79C9-40D9-98AF-FE1361A6CAA4", 39, 1345180897, "545264", 1345180897, "545264", "{\n}", "Emmaus Christian School", "Davenport Street", "DICKSON", "Non-Government", [ null, "-35.253355", "149.142818", null, false ] ]
+, [ 40, "DE05D575-0382-4675-AA0B-5148D3DACFC7", 40, 1345180897, "545264", 1345180897, "545264", "{\n}", "Erindale College", "McBryde Crescent", "Wanniassa", "Government", [ null, "-35.403473", "149.095654", null, false ] ]
+, [ 41, "B0E2B6C0-EC5D-4939-993E-82E035054C21", 41, 1345180897, "545264", 1345180897, "545264", "{\n}", "Evatt Primary School", "Heydon Crescent", "Evatt", "Government", [ null, "-35.20707", "149.075906", null, false ] ]
+, [ 42, "8D03A36C-7B45-4832-9881-B8C8D51123E0", 42, 1345180897, "545264", 1345180897, "545264", "{\n}", "Fadden Primary School", "Hanlon Crescent", "Fadden", "Government", [ null, "-35.404286", "149.118175", null, false ] ]
+, [ 43, "0E3C93EC-1783-44F1-8F6F-33D40C851B51", 43, 1345180897, "545264", 1345180897, "545264", "{\n}", "Farrer Primary School", "Lambrigg Street", "Farrer", "Government", [ null, "-35.378739", "149.107114", null, false ] ]
+, [ 44, "F34C009C-E3AE-411A-B3C6-0EA90DDD9ADB", 44, 1345180897, "545264", 1345180897, "545264", "{\n}", "Florey Primary School", "Ratcliffe Crescent", "Florey", "Government", [ null, "-35.226519", "149.052092", null, false ] ]
+, [ 45, "1271F106-E50C-485F-A5AB-F0B109D8D1B3", 45, 1345180897, "545264", 1345180897, "545264", "{\n}", "Forrest Primary School", "National Circuit", "Forrest", "Government", [ null, "-35.315084", "149.126171", null, false ] ]
+, [ 46, "6DC31575-0DC7-4501-ACB0-94EEAE9A0CAF", 46, 1345180897, "545264", 1345180897, "545264", "{\n}", "Fraser Primary School", "Tillyard Drive", "Fraser", "Government", [ null, "-35.191795", "149.043375", null, false ] ]
+, [ 47, "EC1FAA8C-68C1-47FA-98CE-A00737AEF4E6", 47, 1345180897, "545264", 1345180897, "545264", "{\n}", "Galilee School, The ", "Kambah Pool Road", "KAMBAH", "Non-Government", [ null, "-35.386837", "149.03132", null, false ] ]
+, [ 48, "53EE8988-99DF-465F-8610-1FE2E79941CF", 48, 1345180897, "545264", 1345180897, "545264", "{\n}", "Garran Primary School", "Gilmore Crescent", "Garran", "Government", [ null, "-35.344681", "149.103287", null, false ] ]
+, [ 49, "49EBDFDD-E5F5-407B-A04F-B82FE6932974", 49, 1345180897, "545264", 1345180897, "545264", "{\n}", "Gilmore Primary School", "Heagney Crescent", "Gilmore", "Government", [ null, "-35.419488", "149.135582", null, false ] ]
+, [ 50, "D01D80D2-8448-4FF0-80B5-802E328893D0", 50, 1345180897, "545264", 1345180897, "545264", "{\n}", "Giralang Primary School", "Canopus Crescent", "Giralang", "Government", [ null, "-35.213717", "149.094449", null, false ] ]
+, [ 51, "ADD0E529-7183-4ACA-A0D4-D09AF542ADAB", 51, 1345180897, "545264", 1345180897, "545264", "{\n}", "Gold Creek School", "Kelleway Avenue", "Nicholls", "Government", [ null, "-35.181275", "149.100262", null, false ] ]
+, [ 52, "AC815E64-4832-4AFB-AAA5-2B392F8F3F2B", 52, 1345180897, "545264", 1345180897, "545264", "{\n}", "Good Shepherd Primary School", "Burdekin Avenue", "AMAROO", "Non-Government", [ null, "-35.166843", "149.123922", null, false ] ]
+, [ 53, "94373B68-7737-45A3-9E8A-22F6CB436377", 53, 1345180897, "545264", 1345180897, "545264", "{\n}", "Gordon Primary School", "Knoke Avenue", "Gordon", "Government", [ null, "-35.455517", "149.086978", null, false ] ]
+, [ 54, "D1A63EEE-969F-43E0-820D-F19F66D69B7D", 54, 1345180897, "545264", 1345180897, "545264", "{\n}", "Gowrie Primary School", "Jeffries Street", "Gowrie", "Government", [ null, "-35.413608", "149.110565", null, false ] ]
+, [ 55, "B495208D-6125-498E-9A52-C2F088CBE80F", 55, 1345180897, "545264", 1345180897, "545264", "{\n}", "Gungahlin College", "Gribble st", "Gungahlin", "Government", [ null, "-35.184283", "149.130617", null, false ] ]
+, [ 56, "1E6A1F85-24DD-4EFD-B1EF-AE0E7A414CD4", 56, 1345180897, "545264", 1345180897, "545264", "{\n}", "Harrison School", "Nullabor Avenue", "Harrison", "Government", [ null, "-35.197531", "149.151642", null, false ] ]
+, [ 57, "0A20CE2E-5B4B-4424-A3F1-09D7899B0F76", 57, 1345180897, "545264", 1345180897, "545264", "{\n}", "Hawker College", "Murranji Street", "Hawker", "Government", [ null, "-35.244317", "149.031897", null, false ] ]
+, [ 58, "BEA16B29-83BC-461C-9AE7-70B69FAA1633", 58, 1345180897, "545264", 1345180897, "545264", "{\n}", "Hawker Primary School", "Erldunda Circuit", "Hawker", "Government", [ null, "-35.250284", "149.034593", null, false ] ]
+, [ 59, "7081E18F-FA9F-4E48-A845-94F11D256634", 59, 1345180897, "545264", 1345180897, "545264", "{\n}", "Holy Family Parish Primary School", "Castleton Crescent", "GOWRIE", "Non-Government", [ null, "-35.410301", "149.116552", null, false ] ]
+, [ 60, "35C3A789-AAF8-4042-B591-C81CBD7B2E94", 60, 1345180897, "545264", 1345180897, "545264", "{\n}", "Holy Spirit Primary School", "Kelleway Avenue", "NICHOLLS", "Non-Government", [ null, "-35.180246", "149.101809", null, false ] ]
+, [ 61, "DE1CACC3-C219-4AB2-80F5-227B6AA3B904", 61, 1345180897, "545264", 1345180897, "545264", "{\n}", "Holy Trinity Primary School", "Theodore Street", "CURTIN", "Non-Government", [ null, "-35.327679", "149.081951", null, false ] ]
+, [ 62, "7CA00941-DE96-47E6-97C8-9E84A2BC34AB", 62, 1345180897, "545264", 1345180897, "545264", "{\n}", "Hughes Primary School", "Kent Street", "Hughes", "Government", [ null, "-35.332248", "149.093456", null, false ] ]
+, [ 63, "917124CE-621F-46CB-AA1E-FCB592A5A7B0", 63, 1345180897, "545264", 1345180897, "545264", "{\n}", "Isabella Plains Early Childhood School", "Ellerston Avenue", "Isabella Plains", "Government", [ null, "-35.428716", "149.089497", null, false ] ]
+, [ 64, "46257B8D-E837-4BD4-8ABA-BA3B19A8BA4C", 64, 1345180897, "545264", 1345180897, "545264", "{\n}", "Islamic School of Canberra", "33 Heysen Street", "Weston", "Non-Government", [ null, "-35.329596", "149.060593", null, false ] ]
+, [ 65, "0E8F8DC0-A92B-4333-8DBA-3CA96B96116C", 65, 1345180897, "545264", 1345180897, "545264", "{\n}", "Jervis Bay Primary School", "Dykes Avenue", "Jervis Bay", "Government", [ null, "-35.130785", "150.704945", null, false ] ]
+, [ 66, "39995D36-750C-4E7D-A651-47CBE47DA06B", 66, 1345180897, "545264", 1345180897, "545264", "{\n}", "Kaleen High School", "Baldwin Drive", "Kaleen", "Government", [ null, "-35.225083", "149.1012", null, false ] ]
+, [ 67, "A492B716-5B23-4384-87B6-AA41DCBCC5A8", 67, 1345180897, "545264", 1345180897, "545264", "{\n}", "Kaleen Primary School", "Ashburton Circuit", "Kaleen", "Government", [ null, "-35.224835", "149.11404", null, false ] ]
+, [ 68, "FDF15F77-641F-4A65-9211-252B7B7E947E", 68, 1345180897, "545264", 1345180897, "545264", "{\n}", "Kingsford Smith School", "Starke Street", "Holt", "Government", [ null, "-35.227715", "149.019506", null, false ] ]
+, [ 69, "7DAF3FD2-7EFE-493B-859E-5CB7985AF0E9", 69, 1345180897, "545264", 1345180897, "545264", "{\n}", "Lake Ginninderra College", "Emu Bank", "Belconnen", "Government", [ null, "-35.239149", "149.074161", null, false ] ]
+, [ 70, "A2127620-6608-4DA8-9983-00FC1E14135B", 70, 1345180897, "545264", 1345180897, "545264", "{\n}", "Lake Tuggeranong College", "Cowlishaw Street", "Tuggeranong", "Government", [ null, "-35.413803", "149.068195", null, false ] ]
+, [ 71, "BDEE4337-943D-4787-9F04-A5AB7028D33A", 71, 1345180897, "545264", 1345180897, "545264", "{\n}", "Lanyon High School", "Heidelberg Street", "Conder", "Government", [ null, "-35.460389", "149.09507", null, false ] ]
+, [ 72, "5FFF0FB6-9C43-4A8D-85EC-B8B34465E6B1", 72, 1345180897, "545264", 1345180897, "545264", "{\n}", "Latham Primary School", "O'Loghlen Street", "Latham", "Government", [ null, "-35.220157", "149.034298", null, false ] ]
+, [ 73, "555C3249-0CBA-4130-87C7-1C8A92410E29", 73, 1345180897, "545264", 1345180897, "545264", "{\n}", "Lyneham High School", "Goodwin Street", "Lyneham", "Government", [ null, "-35.252379", "149.130653", null, false ] ]
+, [ 74, "6555068C-1523-4AA0-B41F-ED42FFAD0459", 74, 1345180897, "545264", 1345180897, "545264", "{\n}", "Lyneham Primary School", "Hall Street", "Lyneham", "Government", [ null, "-35.25148", "149.124974", null, false ] ]
+, [ 75, "C2AE11B8-DC16-469E-8ECF-E675A2153000", 75, 1345180897, "545264", 1345180897, "545264", "{\n}", "Lyons Early Childhood School", "Tarraleah Crescent", "Lyons", "Government", [ null, "-35.341633", "149.076243", null, false ] ]
+, [ 76, "269917F3-3A88-41C1-BE4C-9337CEBE1495", 76, 1345180897, "545264", 1345180897, "545264", "{\n}", "Macgregor Primary School", "Hirschfeld Crescent", "Macgregor", "Government", [ null, "-35.213112", "149.012349", null, false ] ]
+, [ 77, "DB7E557D-FBAD-400C-B13D-476CEB49466D", 77, 1345180897, "545264", 1345180897, "545264", "{\n}", "Macquarie Primary School", "Bennelong Crescent", "Macquarie", "Government", [ null, "-35.250069", "149.059393", null, false ] ]
+, [ 78, "287A6D8D-9AF7-462A-B4B3-EA63F3FAC72F", 78, 1345180897, "545264", 1345180897, "545264", "{\n}", "Majura Primary School", "Knox Street", "Watson", "Government", [ null, "-35.238509", "149.15501", null, false ] ]
+, [ 79, "50E85261-F3A4-49CA-A707-49B8DAD049D0", 79, 1345180897, "545264", 1345180897, "545264", "{\n}", "Malkara School", "Wisdom Street", "Garran", "Government", [ null, "-35.337447", "149.09402", null, false ] ]
+, [ 80, "AE7D8C4A-7F8A-4B80-A245-8D194B199D8B", 80, 1345180897, "545264", 1345180897, "545264", "{\n}", "Maribyrnong Primary School", "Alberga Street", "Kaleen", "Government", [ null, "-35.235115", "149.102261", null, false ] ]
+, [ 81, "D4A3961F-98B9-46E2-8C71-4A273BEB0B77", 81, 1345180897, "545264", 1345180897, "545264", "{\n}", "Marist College Canberra", "Marr Street", "PEARCE", "Non-Government", [ null, "-35.357959", "149.088697", null, false ] ]
+, [ 82, "A3A0D3D2-4D70-4F03-9285-3FB79C75C199", 82, 1345180897, "545264", 1345180897, "545264", "{\n}", "Mawson Primary School", "Ainsworth Street", "Mawson", "Government", [ null, "-35.358505", "149.097655", null, false ] ]
+, [ 83, "CCC5805B-DC82-46F3-BE34-B262E9EB0AC7", 83, 1345180897, "545264", 1345180897, "545264", "{\n}", "Melba Copland Secondary School Copland Campus", "Copland Drive", "Melba", "Government", [ null, "-35.21254", "149.059794", null, false ] ]
+, [ 84, "1E53A8C1-9987-4CC7-A27B-82D434636A30", 84, 1345180897, "545264", 1345180897, "545264", "{\n}", "Melba Copland Secondary School Melba Campus", "Conley Drive", "Melba", "Government", [ null, "-35.21411", "149.049203", null, false ] ]
+, [ 85, "CB2EB182-6A91-4214-B409-597FAAAD6790", 85, 1345180897, "545264", 1345180897, "545264", "{\n}", "Melrose High School", "Marr Street", "Pearce", "Government", [ null, "-35.363475", "149.089434", null, false ] ]
+, [ 86, "279BA55D-AACF-4902-BCBB-B46BEAEA1654", 86, 1345180897, "545264", 1345180897, "545264", "{\n}", "Merici College", "Wise Street", "BRADDON", "Non-Government", [ null, "-35.266525", "149.137037", null, false ] ]
+, [ 87, "71D3A011-FBA7-4844-BE66-75F6BA1A6993", 87, 1345180897, "545264", 1345180897, "545264", "{\n}", "Miles Franklin Primary School", "Alderman Street", "Evatt", "Government", [ null, "-35.213295", "149.066961", null, false ] ]
+, [ 88, "FB4E957A-9CDA-4EED-B0E1-ABB1C864F06C", 88, 1345180897, "545264", 1345180897, "545264", "{\n}", "Monash Primary School", "Corlette Street", "Monash", "Government", [ null, "-35.414879", "149.089411", null, false ] ]
+, [ 89, "8ADD50AE-A90B-4485-99C1-927B7F03C2BF", 89, 1345180897, "545264", 1345180897, "545264", "{\n}", "Mother Teresa Primary School", "Corner of Mapleton Ave and Wimmera St", "Harrison", "Non-Government", [ null, "-35.195134", "149.15333", null, false ] ]
+, [ 90, "7742D532-8CA4-49B5-83A7-7792939B8D54", 90, 1345180897, "545264", 1345180897, "545264", "{\n}", "Mount Rogers Primary School", "Alfred Hill Drive", "Melba", "Government", [ null, "-35.208737", "149.055621", null, false ] ]
+, [ 91, "4A2F3D2D-9CA9-40FC-98F4-4A2D323777A3", 91, 1345180897, "545264", 1345180897, "545264", "{\n}", "Namadgi School", "O'Halloran Cct", "Kambah", "Government", [ null, "-35.392796", "149.067127", null, false ] ]
+, [ 92, "1A47A23C-3C90-42BC-8FAC-36113418BF1F", 92, 1345180897, "545264", 1345180897, "545264", "{\n}", "Narrabundah College", "Jerrabomberra Ave", "Narrabundah", "Government", [ null, "-35.335969", "149.147097", null, false ] ]
+, [ 93, "5F17B7E0-2A41-4D10-975B-9F92A8382F0C", 93, 1345180897, "545264", 1345180897, "545264", "{\n}", "Narrabundah Early Childhood School", "Kootara Crescent", "Narrabundah", "Government", [ null, "-35.329016", "149.150698", null, false ] ]
+, [ 94, "50F9D63E-CA15-457F-9D7E-E248F57EDC8D", 94, 1345180897, "545264", 1345180897, "545264", "{\n}", "Ngunnawal Primary School", "Unaipon Avenue", "Ngunnawal", "Government", [ null, "-35.169196", "149.111784", null, false ] ]
+, [ 95, "33D0696D-FDEF-476B-A3EC-03A3C5BFC13A", 95, 1345180897, "545264", 1345180897, "545264", "{\n}", "North Ainslie Primary School", "Majura Avenue", "Ainslie", "Government", [ null, "-35.255113", "149.146358", null, false ] ]
+, [ 96, "8D3CD7D9-E389-4680-ADBE-0E091E3FB96A", 96, 1345180897, "545264", 1345180897, "545264", "{\n}", "O'Connor Cooperative School", "Macpherson Street", "O'Connor", "Government", [ null, "-35.264552", "149.122499", null, false ] ]
+, [ 97, "D3E6EB0A-CE3E-40E0-B73F-74BDA21B5B6C", 97, 1345180897, "545264", 1345180897, "545264", "{\n}", "Orana School", "Unwin Place", "WESTON", "Non-Government", [ null, "-35.327858", "149.058949", null, false ] ]
+, [ 98, "EF5BF875-B940-4A4C-8F8A-A7F69FBE3E2B", 98, 1345180897, "545264", 1345180897, "545264", "{\n}", "Palmerston District Primary School", "Kosciusko Avenue", "Palmerston", "Government", [ null, "-35.1975", "149.120303", null, false ] ]
+, [ 99, "84A46094-9893-4505-B511-E8B9B0B484F8", 99, 1345180897, "545264", 1345180897, "545264", "{\n}", "Radford College", "College Street", "BRUCE", "Non-Government", [ null, "-35.243503", "149.089323", null, false ] ]
+, [ 100, "874A94AA-7387-403D-B7DF-C441585EFA21", 100, 1345180897, "545264", 1345180897, "545264", "{\n}", "Red Hill Primary School", "Astrolabe Street", "Red Hill", "Government", [ null, "-35.339741", "149.132893", null, false ] ]
+, [ 101, "B980A9A3-06DD-46C8-A059-0369A0399346", 101, 1345180897, "545264", 1345180897, "545264", "{\n}", "Richardson Primary School", "May Gibbs Close", "Richardson", "Government", [ null, "-35.428859", "149.113943", null, false ] ]
+, [ 102, "EAD9B4D7-D110-4751-8884-A5436675CD47", 102, 1345180897, "545264", 1345180897, "545264", "{\n}", "Rosary Primary School", "Fleming Street", "WATSON", "Non-Government", [ null, "-35.24641", "149.154682", null, false ] ]
+, [ 103, "43763896-DE61-40E5-884D-2C807E54C9C1", 103, 1345180897, "545264", 1345180897, "545264", "{\n}", "Sacred Heart Primary School", "29 Murphy Street", "PEARCE", "Non-Government", [ null, "-35.366936", "149.084391", null, false ] ]
+, [ 104, "5B1D17D2-CB86-4DC8-83A3-2CB50EF16172", 104, 1345180897, "545264", 1345180897, "545264", "{\n}", "Southern Cross Early Childhood School", "Wirraway Crescent", "Scullin", "Government", [ null, "-35.232767", "149.038363", null, false ] ]
+, [ 105, "0F3D7FA3-B273-4E89-8FF6-3CEC4234F994", 105, 1345180897, "545264", 1345180897, "545264", "{\n}", "St Anthony's Parish School", "Wheeler Crescent", "WANNIASSA", "Non-Government", [ null, "-35.394049", "149.080086", null, false ] ]
+, [ 107, "266D9EF6-FA2D-4A61-957F-41FFA47253A3", 107, 1345180897, "545264", 1345180897, "545264", "{\n}", "St Benedict's Primary School", "Tallara Parkway", "NARRABUNDAH", "Non-Government", [ null, "-35.33483", "149.148034", null, false ] ]
+, [ 108, "8E376425-5B8B-466B-A53C-F3B7224040D8", 108, 1345180897, "545264", 1345180897, "545264", "{\n}", "St Clare of Assisi Primary School", "Cnr Boxhill Avenue and Heidelberg Street", "CONDER", "Non-Government", [ null, "-35.45791", "149.096766", null, false ] ]
+, [ 109, "D5B39AFD-18B8-4B71-8629-D248E0110FCF", 109, 1345180897, "545264", 1345180897, "545264", "{\n}", "St Clare's College", "McMillan Crescent", "GRIFFITH", "Non-Government", [ null, "-35.323929", "149.14765", null, false ] ]
+, [ 110, "04987375-066C-4B7B-B039-8D91D940F033", 110, 1345180897, "545264", 1345180897, "545264", "{\n}", "St Edmund's College", "Canberra Avenue", "GRIFFITH", "Non-Government", [ null, "-35.32282", "149.144242", null, false ] ]
+, [ 111, "DE6DD0B5-9147-4575-875D-DEC0EC97EC0A", 111, 1345180897, "545264", 1345180897, "545264", "{\n}", "St Francis of Assisi Primary School", "Casey Crescent", "CALWELL", "Non-Government", [ null, "-35.440799", "149.119593", null, false ] ]
+, [ 112, "0F5BDA5C-AB75-4753-BB49-6152875BF8F7", 112, 1345180897, "545264", 1345180897, "545264", "{\n}", "St Francis Xavier College", "Barnard Circuit", "FLOREY", "Non-Government", [ null, "-35.223979", "149.040615", null, false ] ]
+, [ 113, "5035444E-B726-433E-8A6B-74F774B74B36", 113, 1345180897, "545264", 1345180897, "545264", "{\n}", "St John the Apostle Primary School", "Pawsey Circuit", "FLOREY", "Non-Government", [ null, "-35.225664", "149.041696", null, false ] ]
+, [ 114, "F5733E96-BB17-4BFE-AE55-CF3E01D60D47", 114, 1345180897, "545264", 1345180897, "545264", "{\n}", "St John Vianney's Primary School", "Namatjira Drv", "WARAMANGA", "Non-Government", [ null, "-35.351057", "149.055559", null, false ] ]
+, [ 115, "C3C099DE-7FC1-4389-98B9-D9C1BB6A6606", 115, 1345180897, "545264", 1345180897, "545264", "{\n}", "St Joseph's Primary School", "Macarthur Avenue", "O'CONNOR", "Non-Government", [ null, "-35.259648", "149.126375", null, false ] ]
+, [ 116, "4B207CC6-9E3D-4DD5-ADBB-26BB663D8062", 116, 1345180897, "545264", 1345180897, "545264", "{\n}", "St Jude's Primary School", "Mulley Street", "HOLDER", "Non-Government", [ null, "-35.333941", "149.049819", null, false ] ]
+, [ 117, "6869E332-FE28-49AC-BBA9-7F62A1704460", 117, 1345180897, "545264", 1345180897, "545264", "{\n}", "St Mary Mackillop College", "Ellerston Avenue", "ISABELLA PLAINS", "Non-Government", [ null, "-35.424911", "149.092808", null, false ] ]
+, [ 118, "A6041606-C43B-47C9-84CD-D4FA3159BF05", 118, 1345180897, "545264", 1345180897, "545264", "{\n}", "St Mary Mackillop College", "Mackinnon Street", "WANNIASSA", "Non-Government", [ null, "-35.405251", "149.090983", null, false ] ]
+, [ 119, "8E35F6D6-B580-4D5E-916E-314F9DA574A6", 119, 1345180897, "545264", 1345180897, "545264", "{\n}", "St Matthew's Primary School", "Stutchbury Street", "PAGE", "Non-Government", [ null, "-35.240755", "149.041555", null, false ] ]
+, [ 120, "FD348E06-6917-4AAC-BA0B-227428AA58BE", 120, 1345180897, "545264", 1345180897, "545264", "{\n}", "St Michael's Primary School", "Tyrell Circuit", "KALEEN", "Non-Government", [ null, "-35.223474", "149.109707", null, false ] ]
+, [ 121, "DF6573C1-9704-493C-BDAD-ABE413C0543C", 121, 1345180897, "545264", 1345180897, "545264", "{\n}", "St Monica's Primary School", "Moynihan Street", "EVATT", "Non-Government", [ null, "-35.213525", "149.061289", null, false ] ]
+, [ 122, "5A07F1C5-39E1-4BD6-9B72-AF96BD96168D", 122, 1345180897, "545264", 1345180897, "545264", "{\n}", "St Thomas Aquinas Primary School", "Lhotsky Street", "CHARNWOOD", "Non-Government", [ null, "-35.205121", "149.029638", null, false ] ]
+, [ 123, "C499EA3F-968F-4041-9F73-E839269A72C3", 123, 1345180897, "545264", 1345180897, "545264", "{\n}", "St Thomas More's Primary School", "24 White Crescent", "CAMPBELL", "Non-Government", [ null, "-35.286717", "149.156836", null, false ] ]
+, [ 124, "24731E67-DA3E-42D4-AF1C-CE988D550887", 124, 1345180897, "545264", 1345180897, "545264", "{\n}", "St Thomas the Apostle Primary School", "Boddington Crescent", "KAMBAH", "Non-Government", [ null, "-35.382449", "149.051977", null, false ] ]
+, [ 125, "8D819E07-7A85-4ED1-BC64-0282339CE1CD", 125, 1345180897, "545264", 1345180897, "545264", "{\n}", "St Vincent's Primary School", "Bindel Street", "ARANDA", "Non-Government", [ null, "-35.254993", "149.076661", null, false ] ]
+, [ 126, "707D0922-A6D1-4FE1-B5BA-4D2727C8059E", 126, 1345180897, "545264", 1345180897, "545264", "{\n}", "Stromlo High School", "Badimara Street", "Waramanga", "Government", [ null, "-35.355429", "149.05436", null, false ] ]
+, [ 127, "005E535C-9FEC-4711-930E-F5514E1D8AE6", 127, 1345180897, "545264", 1345180897, "545264", "{\n}", "Sts Peter and Paul's Primary School", "Wisdom Street", "GARRAN", "Non-Government", [ null, "-35.339376", "149.092732", null, false ] ]
+, [ 128, "43FB2CAB-A3A5-4DD2-8DAB-FC3F7404031F", 128, 1345180897, "545264", 1345180897, "545264", "{\n}", "Taylor Primary School", "Marconi Crescent", "Kambah", "Government", [ null, "-35.378318", "149.064261", null, false ] ]
+, [ 129, "009F9EA4-BAEF-465E-8043-9D2DC4685B78", 129, 1345180897, "545264", 1345180897, "545264", "{\n}", "Telopea Park School", "New South Wales Crescent", "Barton", "Government", [ null, "-35.313804", "149.134385", null, false ] ]
+, [ 130, "968178F1-C08B-4E87-A134-5B07284D9642", 130, 1345180897, "545264", 1345180897, "545264", "{\n}", "Theodore Primary School", "Lawrence-Wackett Crescent", "Theodore", "Government", [ null, "-35.447667", "149.12396", null, false ] ]
+, [ 131, "9EB69296-F647-4C8B-B63A-72462DBDF7C6", 131, 1345180897, "545264", 1345180897, "545264", "{\n}", "Torrens Primary School", "Ritchie Street", "Torrens", "Government", [ null, "-35.370046", "149.090949", null, false ] ]
+, [ 132, "7A54EB74-C3DF-451C-BEE6-36DBDA499085", 132, 1345180897, "545264", 1345180897, "545264", "{\n}", "Trinity Christian School", "34 McBryde Crs", "WANNIASSA", "Non-Government", [ null, "-35.408265", "149.086051", null, false ] ]
+, [ 133, "66BE8B0A-659C-4C4D-9E24-68A3AF40C06E", 133, 1345180897, "545264", 1345180897, "545264", "{\n}", "Turner School", "Condamine Street", "Turner", "Government", [ null, "-35.264995", "149.126081", null, false ] ]
+, [ 134, "90DD1CA3-56CA-40D1-88BC-0234BD4A5E2A", 134, 1345180897, "545264", 1345180897, "545264", "{\n}", "Wanniassa Hills Primary School", "Langdon Avenue", "Wanniassa", "Government", [ null, "-35.393069", "149.095898", null, false ] ]
+, [ 135, "65FDD13E-8905-4714-B6D6-4E92DE4BB41B", 135, 1345180897, "545264", 1345180897, "545264", "{\n}", "Wanniassa School", "Sternberg Crescent", "Wanniassa", "Government", [ null, "-35.398201", "149.086012", null, false ] ]
+, [ 136, "08423111-3C95-41BE-AF05-E09A9CD8EEB4", 136, 1345180897, "545264", 1345180897, "545264", "{\n}", "Wanniassa School", "Wheeler Crescent", "Wanniassa", "Government", [ null, "-35.394992", "149.086363", null, false ] ]
+, [ 137, "06DEC00E-5008-4124-A55C-4281C84BE1B4", 137, 1345180897, "545264", 1345180897, "545264", "{\n}", "Weetangera Primary School", "Southwell Street", "Weetangera", "Government", [ null, "-35.251826", "149.047137", null, false ] ]
+, [ 138, "7799F951-EAC6-448B-B3EA-FBDE58A12383", 138, 1345180897, "545264", 1345180897, "545264", "{\n}", "Woden School, The ", "Denison Street", "Deakin", "Government", [ null, "-35.326599", "149.092398", null, false ] ]
+, [ 139, "4C361286-4D49-4ADC-8ECA-FE0444E554DC", 139, 1345180897, "545264", 1345180897, "545264", "{\n}", "Yarralumla Primary School", "Loftus Street", "Yarralumla", "Government", [ null, "-35.306948", "149.103234", null, false ] ]
+, [ 13, "EC825744-46C7-424A-B838-406A2A8EE75F", 13, 1345180897, "545264", 1345181690, "545264", "{}", "Burgmann Anglican School - Forde Campus", "Francis Forde Boulevard", "FORDE", "Non-Government", [ null, "-35.169949", "149.14722", null, false ] ]
+, [ 106, "FE086ABA-6436-478A-BF64-A39FA3B39A50", 106, 1345180897, "545264", 1345181759, "545264", "{}", "St Bede's Primary School", "Nuyts Street", "RED HILL", "Non-Government", [ null, "-35.338847", "149.128788", null, false ] ]
+ ]
+}
