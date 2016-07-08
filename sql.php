@@ -1,15 +1,26 @@
+
+
+<html>
+<head>
+<title>
+TEST SQL
+</title>
+<link rel="stylesheet" href="style-php.css" type="text/css">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+    <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+
+<script src='jquery.js'></script>
+
+    <!-- // <script src="leaflet.ajax.js"></script> -->
+
+</head>
+
+    <body>
+
+
+<div id='mapid'></div>
+
 <?php
-
-echo "<html>";
-echo "<head>";
-echo "<title>";
-echo "TEST SQL";
-echo "</title>";
-
-echo "</head>";
-
-echo "<body>";
-echo "<script src='jquery.js'></script>";
 
 $servername = "mysql.kateandcat.com";   // eg. mysql.yourdomain.com (unique)
 $username = "chefis4";   // the username specified when setting-up the database
@@ -23,6 +34,7 @@ if (mysqli_connect_errno()) {
     printf("Connect failed: %s\n", mysqli_connect_error());
     exit();
 }
+
 
 // FILTER VARIABLES
 $listingprice_array = array(100000,1000000); // NEED TO GET FROM FILTER (min and max of listing price)
@@ -86,26 +98,22 @@ $bathrooms_query = $mysqli->real_escape_string($bathrooms_query);
 
 
 
-$sql = "SELECT name, bedrooms, bathrooms, garages, propertytype, listingprice, auction FROM alladdresses WHERE $listingprice_query AND $bedrooms_query AND $bathrooms_query";
+$sql = "SELECT name, bedrooms, bathrooms, garages, propertytype, listingprice, auction,latitude, longitude FROM alladdresses WHERE $listingprice_query AND $bedrooms_query AND $bathrooms_query";
 
-// var_dump($sql);
-// echo "<p>";
 
-// echo "<p>";
+// if ($mysqli->query($sql)) {
 
-if ($mysqli->query($sql)) {
+//     $result = $mysqli->query($sql);
+//     while ($row = $result->fetch_array(MYSQLI_ASSOC)) {
+//         //printf ("%s | Bed: %s | Bath: %s | Garages: %s | %s | $%s | %s<br>", $row["name"], $row["bedrooms"], $row["bathrooms"], $row["garages"], $row["propertytype"], $row["listingprice"], $row["auction"]);
+//     }
 
-    $result = $mysqli->query($sql);
-    while ($row = $result->fetch_array(MYSQLI_ASSOC)) {
-        //printf ("%s | Bed: %s | Bath: %s | Garages: %s | %s | $%s | %s<br>", $row["name"], $row["bedrooms"], $row["bathrooms"], $row["garages"], $row["propertytype"], $row["listingprice"], $row["auction"]);
-    }
-
-} else {
-    echo "No results!";
-}
+// } else {
+//     echo "No results!";
+// }
 
 /* close connection */
-$mysqli->close();
+//$mysqli->close();
 
 //-----------------------------------------------------
 
@@ -136,32 +144,98 @@ $mysqli->close();
 // echo json_encode($property, JSON_NUMERIC_CHECK | JSON_FORCE_OBJECT);
 
 
-echo "<div id='demo'></div>";
 
 
-$temp = "HELLO";
-$t = [2,5];
+$data = array(); //setting up an empty PHP array for the data to go into
+
+// if($result = mysqli_query($db,$query)) {
+// while ($row = $result->fetch_array(MYSQLI_ASSOC)) {
+  
+//     $data[] = $row;
+//     echo "---";
+//     echo $row;
+//     echo "---";
+//   }
+
+  if ($mysqli->query($sql)) {
+
+    $result = $mysqli->query($sql);
+    while ($row = $result->fetch_array(MYSQLI_ASSOC)) {
+        
+        $data[] = $row;
+    }
+
+} else {
+    echo "No results!";
+}
+
+
+$jsonData =json_encode($data);
+$original_data = json_decode($jsonData, true);
+$features = array();
+
+foreach($original_data as $key => $value) {
+    echo "test";
+    $features[] = array(
+        'type' => 'Feature',
+        'properties' => array('time' => $value['bathrooms']),
+        'geometry' => array(
+             'type' => 'Point', 
+             'coordinates' => array(
+                  floatval($value['longitude']), 
+                  floatval($value['latitude']), 
+             ),
+         ),
+    );
+}
+
+$new_data = array(
+    'type' => 'FeatureCollection',
+    'features' => $features,
+);
+
+$final_data = json_encode($new_data);
+// $final_data = json_encode($new_data, JSON_PRETTY_PRINT);
+
+print_r($final_data);
+
 
 ?>
 
 <script>
-    $(document).ready(function() {
+    // $(document).ready(function() {
 
-       $template = '{"test":"Unit","out":5 }';
-
-
+    //  //   $template = '{"test":"Unit","out":5 }';
 
 
-     json_template = JSON.parse($template);
 
-     json_template["properties"] = "<?php echo $temp; ?>";
-     json_template["out"] = <?php echo $t; ?>;
 
-     document.getElementById("demo").innerHTML = json_template;
+    //  // json_template = JSON.parse($template);
 
-     console.log(json_template);
+    //  // json_template["properties"] = "<?php echo $temp; ?>";
+    //  // json_template["out"] = [<?php echo $t; ?>, <?php echo $t2; ?>];
 
-    });
+    //  document.getElementById("demo").innerHTML = <?php print_r($final_data) ?>;
+
+    //  json_results = <?php print_r($final_data) ?>;
+
+
+    // L.geoJson(geojsonFeature).addTo(map);
+
+
+    // });
+
+    // LEAFLET CODE
+    var map = L.map('mapid',{zoomControl:false}); // what does this do?
+L.control.zoom({position:'bottomleft'}).addTo(map);
+  var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+  var osmAttrib='Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
+  var osm = new L.TileLayer(osmUrl); 
+
+  map.setView([-35.26162,149.145187],12); // start the map in Canberra, Australia
+  map.addLayer(osm); // add OSM layer to map
+  geojsonFeature = <?php print_r($final_data) ?>;
+  L.geoJson(geojsonFeature).addTo(map);
 
 </script>
 
