@@ -27,7 +27,6 @@ function schoolPopup(feature, layer) {
 
 // Updates layers with filter choices
 function updateLayers() {
-    //console.log(document.getElementById('houseCB').checked);
 
     map.eachLayer(function (layer) {
       map.removeLayer(layer);
@@ -91,7 +90,7 @@ function updateLayers() {
           townhouse.addTo(map)
         }
 
-        //map.addLayer(osm);
+        map.addLayer(osm);
     });
 
 }

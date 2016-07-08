@@ -1,0 +1,80 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2016-04-24T01:03:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/247985030",
+      "properties": {
+        "@id": "node/247985030",
+        "building": "house",
+        "address": "23 Bonney St, Ainslie ACT 2602, Australia",
+        "name": "23 Bonney St, Ainslie",
+        "price": "$790,000",
+        "bedrooms": 4,
+        "bathrooms": 1,
+        "blocksize" : 788,
+        "@timestamp": "2008-02-18T13:18:14Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.140056,
+          -35.262248
+        ]
+      }
+    },
+
+
+    {
+      "type": "Feature",
+      "id": "node/247985010",
+      "properties": {
+        "@id": "node/247985010",
+        "building": "house",
+        "address": "14 Hawdon St, Ainslie ACT 2602, Australia",
+        "name": "14 Hawdon St, Ainslie",
+        "price": "Auction",
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "blocksize" : 528,
+        "@timestamp": "2008-02-18T13:18:14Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1522,
+          -35.258502
+        ]
+      }
+    },
+
+
+    {
+      "type": "Feature",
+      "id": "node/247985020",
+      "properties": {
+        "@id": "node/247985020",
+        "building": "townhouse",
+        "address": "44 Campbell St, Ainslie ACT 2602, Australia",
+        "name": "44 Campbell St, Ainslie",
+        "price": "$505,000",
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "blocksize" : 900,
+        "@timestamp": "2008-02-18T13:18:14Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.144698,
+          -35.268438
+        ]
+      }
+    }
+
+
+  ]
+}
